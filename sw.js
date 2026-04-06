@@ -1,8 +1,8 @@
 const CACHE = 'kabubi-v1';
 const PRECACHE = [
-  './가계부.html',
-  './manifest.json',
-  './icons/icon.svg',
+  '/spending/가계부.html',
+  '/spending/manifest.json',
+  '/spending/icons/icon.svg',
   'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap',
   'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js',
 ];

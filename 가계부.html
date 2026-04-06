@@ -955,6 +955,38 @@
   <!-- ══ 설정 탭 ══ -->
   <div id="tab-settings" class="tab-content">
 
+    <!-- GitHub 동기화 -->
+    <div class="card" style="margin-bottom:20px">
+      <div class="card-header">
+        <span class="card-title">☁️ GitHub 동기화</span>
+        <span id="gh-status-badge" style="font-size:12px;color:var(--gray-400)"></span>
+      </div>
+      <div class="card-body">
+        <div style="margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--gray-100)">
+          <div class="add-form" style="grid-template-columns:1fr auto">
+            <div class="form-group">
+              <label>GitHub Personal Access Token</label>
+              <input type="password" id="gh-token-input" placeholder="ghp_xxxxxxxxxxxx" autocomplete="off"
+                style="font-family:monospace;font-size:12px">
+            </div>
+            <button class="btn-add" onclick="ghSaveToken()" style="height:38px;align-self:end">저장</button>
+          </div>
+          <p style="font-size:11px;color:var(--gray-400);margin-top:8px">
+            github.com → Settings → Developer settings → Personal access tokens → Fine-grained tokens<br>
+            <b>spending</b> 저장소의 <b>Contents: Read and Write</b> 권한 필요
+          </p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn-add" onclick="ghPush()" style="height:36px;padding:0 18px;font-size:13px">☁️ GitHub에 저장</button>
+          <button class="btn-cancel" onclick="ghPull()" style="height:36px;padding:0 18px;font-size:13px">⬇️ GitHub에서 불러오기</button>
+          <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--gray-600);cursor:pointer;margin-left:4px">
+            <input type="checkbox" id="gh-auto-sync" onchange="ghToggleAuto(this.checked)"> 변경 시 자동 저장
+          </label>
+        </div>
+        <p id="gh-last-sync" style="font-size:11px;color:var(--gray-400);margin-top:10px"></p>
+      </div>
+    </div>
+
     <!-- 고정 지출 -->
     <div class="card" style="margin-bottom:20px">
       <div class="card-header">
@@ -1099,6 +1131,7 @@ function saveToLS() {
   } catch(e) { console.warn('자동저장 실패:', e); }
   _markUnsaved();      // 폴더 미동기화 표시
   saveToFolder();      // 폴더 연결+권한 있으면 자동 저장 (async)
+  ghAutoSave();        // GitHub 자동 저장 (활성화 시)
 }
 
 // ═══════════════════════════════════════════
@@ -1357,6 +1390,30 @@ function showSaved() {
   el.style.opacity = '1';
   clearTimeout(el._t);
   el._t = setTimeout(() => { el.style.opacity = '0'; }, 1800);
+}
+
+function showToast(msg, duration = 2400) {
+  let el = document.getElementById('_toast');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = '_toast';
+    el.style.cssText = [
+      'position:fixed','bottom:24px','left:50%','transform:translateX(-50%) translateY(12px)',
+      'background:#1F2937','color:#fff','padding:10px 20px','border-radius:999px',
+      'font-size:13px','font-weight:500','z-index:9999','pointer-events:none',
+      'opacity:0','transition:opacity .25s,transform .25s','white-space:nowrap',
+      'font-family:Noto Sans KR,sans-serif','box-shadow:0 4px 16px rgba(0,0,0,.3)'
+    ].join(';');
+    document.body.appendChild(el);
+  }
+  el.textContent = msg;
+  el.style.opacity = '1';
+  el.style.transform = 'translateX(-50%) translateY(0)';
+  clearTimeout(el._t);
+  el._t = setTimeout(() => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateX(-50%) translateY(12px)';
+  }, duration);
 }
 
 let state = {
@@ -3746,6 +3803,166 @@ updateMonthLabel();
 initDates();
 renderAll();
 initFolderLoad();
+initGitHub();
+
+// ═══════════════════════════════════════════
+//  ☁️ GitHub 동기화
+// ═══════════════════════════════════════════
+const GH_OWNER = 'djdumbomb';
+const GH_REPO  = 'spending';
+const GH_FILE  = '가계부_data.json';
+const GH_API   = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${encodeURIComponent(GH_FILE)}`;
+
+let _ghAutoSync = false;
+let _ghDebounceTimer = null;
+
+function _ghToken() { return localStorage.getItem('gh_token') || ''; }
+
+function ghSaveToken() {
+  const val = document.getElementById('gh-token-input').value.trim();
+  if (!val) { showToast('⚠️ 토큰을 입력해주세요'); return; }
+  localStorage.setItem('gh_token', val);
+  document.getElementById('gh-token-input').value = '';
+  document.getElementById('gh-token-input').placeholder = '저장됨 (보안을 위해 표시 안 함)';
+  showToast('✅ 토큰 저장 완료');
+  _ghUpdateUI();
+}
+
+function _ghUpdateUI() {
+  const badge = document.getElementById('gh-status-badge');
+  const autoEl = document.getElementById('gh-auto-sync');
+  if (!badge) return;
+  if (_ghToken()) {
+    badge.textContent = '🟢 연결됨';
+    badge.style.color = 'var(--success)';
+    if (autoEl) autoEl.checked = _ghAutoSync;
+    const inp = document.getElementById('gh-token-input');
+    if (inp) inp.placeholder = '저장됨 (보안을 위해 표시 안 함)';
+  } else {
+    badge.textContent = '⚪ 미연결';
+    badge.style.color = 'var(--gray-400)';
+  }
+}
+
+function ghToggleAuto(on) {
+  _ghAutoSync = on;
+  localStorage.setItem('gh_auto_sync', on ? '1' : '0');
+  showToast(on ? '✅ 자동 저장 활성화' : '자동 저장 비활성화');
+}
+
+// GitHub에 데이터 저장 (Push)
+async function ghPush() {
+  const token = _ghToken();
+  if (!token) { showToast('⚠️ 설정 탭에서 토큰을 먼저 입력해주세요'); return; }
+
+  const badge = document.getElementById('gh-status-badge');
+  if (badge) { badge.textContent = '⏳ 저장 중...'; badge.style.color = 'var(--gray-400)'; }
+
+  try {
+    const content = btoa(unescape(encodeURIComponent(
+      JSON.stringify(_buildStateSnapshot(), null, 2)
+    )));
+
+    // 현재 파일 SHA 조회 (업데이트 시 필요)
+    let sha = null;
+    const getRes = await fetch(GH_API, {
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (getRes.ok) {
+      const info = await getRes.json();
+      sha = info.sha;
+    }
+
+    const body = {
+      message: `가계부 데이터 업데이트 ${new Date().toLocaleString('ko-KR')}`,
+      content,
+      ...(sha ? { sha } : {})
+    };
+
+    const putRes = await fetch(GH_API, {
+      method: 'PUT',
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+
+    if (!putRes.ok) throw new Error(`HTTP ${putRes.status}`);
+
+    const now = new Date().toLocaleString('ko-KR');
+    localStorage.setItem('gh_last_sync', now);
+    const el = document.getElementById('gh-last-sync');
+    if (el) el.textContent = `마지막 저장: ${now}`;
+    showToast('✅ GitHub에 저장 완료');
+  } catch(e) {
+    console.error('GitHub 저장 실패:', e);
+    showToast('❌ GitHub 저장 실패: ' + e.message);
+  } finally {
+    _ghUpdateUI();
+  }
+}
+
+// GitHub에서 데이터 불러오기 (Pull)
+async function ghPull() {
+  const token = _ghToken();
+  if (!token) { showToast('⚠️ 설정 탭에서 토큰을 먼저 입력해주세요'); return; }
+
+  const badge = document.getElementById('gh-status-badge');
+  if (badge) { badge.textContent = '⏳ 불러오는 중...'; badge.style.color = 'var(--gray-400)'; }
+
+  try {
+    const res = await fetch(GH_API + '?t=' + Date.now(), {
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    const info = await res.json();
+    const text = decodeURIComponent(escape(atob(info.content.replace(/\n/g, ''))));
+    const data = JSON.parse(text);
+
+    if (data.transactions)  state.transactions  = data.transactions;
+    if (data.cardExpenses)  state.cardExpenses  = data.cardExpenses;
+    if (data.transfers)     state.transfers     = data.transfers;
+    if (data.myCards)       state.myCards       = data.myCards;
+    if (data.myAccounts)    state.myAccounts    = data.myAccounts;
+    if (data.fixedExpenses) state.fixedExpenses = data.fixedExpenses;
+    if (data.categories)    state.categories    = data.categories;
+    if (!state.categories.length) state.categories = DEFAULT_CATS.map(c=>({...c}));
+    linkReceiptData();
+    saveToLS();
+    renderAll();
+
+    const now = new Date().toLocaleString('ko-KR');
+    localStorage.setItem('gh_last_sync', now);
+    const el = document.getElementById('gh-last-sync');
+    if (el) el.textContent = `마지막 동기화: ${now}`;
+    showToast('✅ GitHub에서 불러오기 완료');
+  } catch(e) {
+    console.error('GitHub 불러오기 실패:', e);
+    showToast('❌ GitHub 불러오기 실패: ' + e.message);
+  } finally {
+    _ghUpdateUI();
+  }
+}
+
+// 자동 저장용 디바운스 (3초 대기 후 저장)
+function ghAutoSave() {
+  if (!_ghAutoSync || !_ghToken()) return;
+  clearTimeout(_ghDebounceTimer);
+  _ghDebounceTimer = setTimeout(ghPush, 3000);
+}
+
+// 앱 시작 시 GitHub에서 자동 로드
+async function initGitHub() {
+  _ghAutoSync = localStorage.getItem('gh_auto_sync') === '1';
+  _ghUpdateUI();
+  const last = localStorage.getItem('gh_last_sync');
+  const el = document.getElementById('gh-last-sync');
+  if (el && last) el.textContent = `마지막 동기화: ${last}`;
+  if (_ghToken()) await ghPull();
+}
 
 // ── PWA 서비스 워커 등록 ──
 if ('serviceWorker' in navigator) {
