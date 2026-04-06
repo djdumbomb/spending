@@ -283,11 +283,13 @@
       "date": "2026-04-06",
       "type": "expense",
       "cat": "식비",
-      "desc": "능이삼백집",
+      "desc": "능이삼계탕",
       "amount": 15000,
-      "memo": "삼계탕",
-      "payMethod": "cash",
-      "source": "receipt"
+      "memo": "능이삼백집",
+      "payMethod": "card",
+      "source": "receipt",
+      "linkedId": "_mwx4709",
+      "payDetail": "삼성카드 *4928"
     },
     {
       "id": "_ua0gy4c",
@@ -650,6 +652,19 @@
       "memo": "능이삼백집",
       "source": "manual",
       "linkedId": "_ua0gy4c"
+    },
+    {
+      "id": "_mwx4709",
+      "date": "2026-04-06",
+      "cat": "식비",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "능이삼계탕",
+      "item": "능이삼계탕",
+      "amount": 15000,
+      "memo": "능이삼백집",
+      "source": "manual",
+      "linkedId": "_ipzls91"
     }
   ],
   "transfers": [
@@ -842,5 +857,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-06T14:40:01.699Z"
+  "savedAt": "2026-04-06T14:40:29.806Z"
 }
