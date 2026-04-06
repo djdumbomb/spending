@@ -277,6 +277,17 @@
       "source": "receipt",
       "sourceFile": "20260405_192947.jpg",
       "linkedId": "atjjk5y3"
+    },
+    {
+      "id": "_15yk006",
+      "date": "2026-04-06",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "아크앤북",
+      "amount": 15000,
+      "memo": "아리아서책",
+      "payMethod": "cash",
+      "source": "receipt"
     }
   ],
   "cardExpenses": [
@@ -806,5 +817,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-06T14:31:43.919Z"
+  "savedAt": "2026-04-06T14:35:45.323Z"
 }
