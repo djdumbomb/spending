@@ -1115,6 +1115,14 @@
 // ═══════════════════════════════════════════
 const LS_KEY = 'kabubi_v2';
 
+// ── GitHub 동기화 상수 ──
+const GH_OWNER = 'djdumbomb';
+const GH_REPO  = 'spending';
+const GH_FILE  = '가계부_data.json';
+const GH_API   = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${encodeURIComponent(GH_FILE)}`;
+let _ghAutoSync = false;
+let _ghDebounceTimer = null;
+
 // ── localStorage 자동 저장/불러오기 ──
 function saveToLS() {
   try {
@@ -3808,14 +3816,6 @@ initGitHub();
 // ═══════════════════════════════════════════
 //  ☁️ GitHub 동기화
 // ═══════════════════════════════════════════
-const GH_OWNER = 'djdumbomb';
-const GH_REPO  = 'spending';
-const GH_FILE  = '가계부_data.json';
-const GH_API   = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${encodeURIComponent(GH_FILE)}`;
-
-let _ghAutoSync = false;
-let _ghDebounceTimer = null;
-
 function _ghToken() { return localStorage.getItem('gh_token') || ''; }
 
 function ghSaveToken() {
