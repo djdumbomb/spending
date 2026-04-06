@@ -314,6 +314,40 @@
       "payMethod": "card",
       "linkedId": "_patj83e",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "x02k5qit",
+      "date": "2026-04-02",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "아메리카노",
+      "amount": 3500,
+      "memo": "유캔두잇 용인공세점",
+      "source": "receipt",
+      "sourceFile": "20260406_210330.jpg",
+      "linkedId": "miakp2vu"
+    },
+    {
+      "id": "lqngn2zi",
+      "date": "2026-04-06",
+      "type": "expense",
+      "cat": "쇼핑",
+      "desc": "상품(#8803B3B45413)",
+      "amount": 7000,
+      "memo": "아크앤북 용인",
+      "source": "receipt",
+      "sourceFile": "20260406_210345.jpg"
+    },
+    {
+      "id": "lvd9geq1",
+      "date": "2026-04-06",
+      "type": "expense",
+      "cat": "쇼핑",
+      "desc": "상품(#8809932840027)",
+      "amount": 8000,
+      "memo": "아크앤북 용인",
+      "source": "receipt",
+      "sourceFile": "20260406_210345.jpg"
     }
   ],
   "cardExpenses": [
@@ -639,20 +673,6 @@
       "linkedId": "oqc9vgqw"
     },
     {
-      "id": "gxueixvs",
-      "date": "2026-04-03",
-      "issuer": "KB카드",
-      "cardLabel": "KB카드",
-      "cat": "식비",
-      "merchant": "홀리스 (타천휴게소2호점)",
-      "item": "아이스드카페아메리카노",
-      "amount": 6100,
-      "memo": "홀리스 (타천휴게소2호점)",
-      "source": "receipt",
-      "sourceFile": "20260403_155341.jpg",
-      "linkedId": "oqc9vgqw"
-    },
-    {
       "id": "_j2yrbdi",
       "date": "2026-04-06",
       "cat": "식비",
@@ -690,6 +710,20 @@
       "memo": "솔루엠 편의점",
       "source": "manual",
       "linkedId": "_kgkd5xy"
+    },
+    {
+      "id": "miakp2vu",
+      "date": "2026-04-02",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드",
+      "cat": "카페",
+      "merchant": "유캔두잇 용인공세점",
+      "item": "아메리카노",
+      "amount": 3500,
+      "memo": "유캔두잇 용인공세점",
+      "source": "receipt",
+      "sourceFile": "20260406_210330.jpg",
+      "linkedId": "x02k5qit"
     }
   ],
   "transfers": [
@@ -882,5 +916,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-06T14:59:08.652Z"
+  "savedAt": "2026-04-06T15:01:40.334Z"
 }
