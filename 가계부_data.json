@@ -288,6 +288,17 @@
       "memo": "아리아서책",
       "payMethod": "cash",
       "source": "receipt"
+    },
+    {
+      "id": "_9j0van2",
+      "date": "2026-04-02",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "유 캔 두 잇 용인",
+      "amount": 3500,
+      "memo": "아메리카노",
+      "payMethod": "cash",
+      "source": "receipt"
     }
   ],
   "cardExpenses": [
@@ -817,5 +828,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-06T14:35:45.323Z"
+  "savedAt": "2026-04-06T14:37:02.805Z"
 }
