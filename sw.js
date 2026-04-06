@@ -1,4 +1,4 @@
-const CACHE = 'kabubi-v1';
+const CACHE = 'kabubi-v2';
 const PRECACHE = [
   '/spending/가계부.html',
   '/spending/manifest.json',
