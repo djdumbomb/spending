@@ -302,6 +302,18 @@
       "payMethod": "card",
       "linkedId": "_j2yrbdi",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_kgkd5xy",
+      "date": "2026-04-06",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "몬스터 네어지",
+      "amount": 23000,
+      "memo": "솔루엠 편의점",
+      "payMethod": "card",
+      "linkedId": "_patj83e",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -665,6 +677,19 @@
       "memo": "능이삼백집",
       "source": "manual",
       "linkedId": "_ipzls91"
+    },
+    {
+      "id": "_patj83e",
+      "date": "2026-04-06",
+      "cat": "기타",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "몬스터 네어지",
+      "item": "몬스터 네어지",
+      "amount": 23000,
+      "memo": "솔루엠 편의점",
+      "source": "manual",
+      "linkedId": "_kgkd5xy"
     }
   ],
   "transfers": [
@@ -857,5 +882,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-06T14:40:29.806Z"
+  "savedAt": "2026-04-06T14:41:10.837Z"
 }
