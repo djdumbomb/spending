@@ -3916,6 +3916,10 @@ async function ghPull() {
     const res = await fetch(GH_API + '?t=' + Date.now(), {
       headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.v3+json' }
     });
+    if (res.status === 404) {
+      showToast('☁️ GitHub에 저장된 데이터 없음 — 먼저 저장해주세요');
+      _ghUpdateUI(); return;
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const info = await res.json();
