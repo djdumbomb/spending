@@ -348,6 +348,17 @@
       "memo": "아크앤북 용인",
       "source": "receipt",
       "sourceFile": "20260406_210345.jpg"
+    },
+    {
+      "id": "_um6knb9",
+      "date": "2026-04-07",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "우지커피",
+      "amount": 8600,
+      "memo": "아메리카노, 아이스아메리카노, 도넛",
+      "payMethod": "cash",
+      "source": "receipt"
     }
   ],
   "cardExpenses": [
@@ -927,5 +938,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-07T07:52:01.188Z"
+  "savedAt": "2026-04-07T07:53:37.954Z"
 }
