@@ -357,8 +357,10 @@
       "desc": "우지커피",
       "amount": 8600,
       "memo": "아메리카노, 아이스아메리카노, 도넛",
-      "payMethod": "cash",
-      "source": "receipt"
+      "payMethod": "card",
+      "source": "receipt",
+      "linkedId": "_a5pln7z",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -735,6 +737,19 @@
       "source": "receipt",
       "sourceFile": "20260406_210330.jpg",
       "linkedId": "x02k5qit"
+    },
+    {
+      "id": "_a5pln7z",
+      "date": "2026-04-07",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "우지커피",
+      "item": "우지커피",
+      "amount": 8600,
+      "memo": "아메리카노, 아이스아메리카노, 도넛",
+      "source": "manual",
+      "linkedId": "_um6knb9"
     }
   ],
   "transfers": [
@@ -938,5 +953,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-07T07:53:37.954Z"
+  "savedAt": "2026-04-07T07:54:24.478Z"
 }
