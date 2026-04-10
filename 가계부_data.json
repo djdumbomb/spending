@@ -744,7 +744,7 @@
       "id": "pp0yn1fn",
       "date": "2026-04-03",
       "issuer": "삼성카드",
-      "cardLabel": "삼성카드(*4921)",
+      "cardLabel": "삼성카드 *4928",
       "cat": "교통",
       "merchant": "동탄행복셀프주유소",
       "item": "휘발유 (39.050L)",
@@ -856,8 +856,8 @@
       "id": "_n0xw04a",
       "date": "2026-04-03",
       "cat": "카페",
-      "issuer": "네이버페이",
-      "cardLabel": "네이버페이",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "아이스드카페아메리카노",
       "item": "아이스드카페아메리카노",
       "amount": 6100,
@@ -869,8 +869,8 @@
       "id": "_j2yrbdi",
       "date": "2026-04-06",
       "cat": "식비",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
       "merchant": "낙지삼계탕",
       "item": "낙지삼계탕",
       "amount": 17000,
@@ -882,8 +882,8 @@
       "id": "_mwx4709",
       "date": "2026-04-06",
       "cat": "식비",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
       "merchant": "능이삼계탕",
       "item": "능이삼계탕",
       "amount": 15000,
@@ -908,7 +908,7 @@
       "id": "miakp2vu",
       "date": "2026-04-02",
       "issuer": "삼성카드",
-      "cardLabel": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "cat": "카페",
       "merchant": "유캔두잇 용인공세점",
       "item": "아메리카노",
@@ -1125,6 +1125,26 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_trzhcj2"
+    },
+    {
+      "id": "_73m6wsu",
+      "date": "2026-04-08",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "주거",
+      "merchant": "삼천리도시가스",
+      "amount": 245180,
+      "memo": ""
+    },
+    {
+      "id": "_q11mqfg",
+      "date": "2026-04-02",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "교통",
+      "merchant": "버스",
+      "amount": 3100,
+      "memo": ""
     }
   ],
   "transfers": [
@@ -1328,5 +1348,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-10T07:20:09.899Z"
+  "savedAt": "2026-04-10T07:27:14.923Z"
 }
