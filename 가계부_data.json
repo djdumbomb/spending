@@ -541,6 +541,42 @@
       "payMethod": "card",
       "linkedId": "_v2uik6v",
       "payDetail": "KB국민카드 *9065"
+    },
+    {
+      "id": "_1lwie8n",
+      "date": "2026-04-10",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "아빠회사가",
+      "amount": 75000,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_iq61dgu",
+      "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_givz5u4",
+      "date": "2026-04-12",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "아디츄",
+      "amount": 5100,
+      "memo": "아이스크림",
+      "payMethod": "card",
+      "linkedId": "_n51df03",
+      "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_bz011aj",
+      "date": "2026-04-12",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "주차비",
+      "amount": 1500,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_35y18iy",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1145,6 +1181,65 @@
       "merchant": "버스",
       "amount": 3100,
       "memo": ""
+    },
+    {
+      "id": "_iq61dgu",
+      "date": "2026-04-10",
+      "cat": "식비",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "아빠회사가",
+      "item": "아빠회사가",
+      "amount": 75000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_1lwie8n"
+    },
+    {
+      "id": "_n51df03",
+      "date": "2026-04-12",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "아디츄",
+      "item": "아디츄",
+      "amount": 5100,
+      "memo": "아이스크림",
+      "source": "manual",
+      "linkedId": "_givz5u4"
+    },
+    {
+      "id": "_35y18iy",
+      "date": "2026-04-12",
+      "cat": "교통",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "주차비",
+      "item": "주차비",
+      "amount": 1500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_bz011aj"
+    },
+    {
+      "id": "_4atyw9j",
+      "date": "2026-04-12",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "식비",
+      "merchant": "치킨",
+      "amount": 19500,
+      "memo": ""
+    },
+    {
+      "id": "_ip32ys0",
+      "date": "2026-04-11",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "식비",
+      "merchant": "방자네탕수육",
+      "amount": 27000,
+      "memo": ""
     }
   ],
   "transfers": [
@@ -1348,5 +1443,5 @@
       "color": "#9CA3AF"
     }
   ],
-  "savedAt": "2026-04-10T07:27:14.923Z"
+  "savedAt": "2026-04-12T10:04:37.561Z"
 }
