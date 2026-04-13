@@ -601,6 +601,84 @@
       "payMethod": "card",
       "linkedId": "_277ngo8",
       "payDetail": "롯데카드 *7653"
+    },
+    {
+      "id": "_oai4msw",
+      "date": "2026-04-11",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "방자네탕수육",
+      "amount": 27000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_5mr73bd"
+    },
+    {
+      "id": "_rx9r8sr",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "주차",
+      "amount": 2500,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_i3j2k13"
+    },
+    {
+      "id": "_tbm8z7e",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "보라연한의원",
+      "amount": 15500,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_d59kurh"
+    },
+    {
+      "id": "_i8ow4f4",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "영상",
+      "desc": "조명 베터리",
+      "amount": 131682,
+      "memo": "ali",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_jyf8qhy"
+    },
+    {
+      "id": "_pip7aet",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "치킨",
+      "amount": 23000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_7wbm58n"
+    },
+    {
+      "id": "_9ors9v6",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "주거",
+      "desc": "도시가스",
+      "amount": 245180,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_1d2qzx5"
     }
   ],
   "cardExpenses": [
@@ -1246,16 +1324,6 @@
       "linkedId": "_bz011aj"
     },
     {
-      "id": "_ip32ys0",
-      "date": "2026-04-11",
-      "issuer": "롯데카드",
-      "cardLabel": "롯데카드 *7653",
-      "cat": "식비",
-      "merchant": "방자네",
-      "amount": 27000,
-      "memo": ""
-    },
-    {
       "id": "_96oqtdd",
       "date": "2026-04-13",
       "cat": "식비",
@@ -1280,6 +1348,84 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_fga7ud2"
+    },
+    {
+      "id": "_5mr73bd",
+      "date": "2026-04-11",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "식비",
+      "merchant": "방자네탕수육",
+      "item": "방자네탕수육",
+      "amount": 27000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_oai4msw"
+    },
+    {
+      "id": "_i3j2k13",
+      "date": "2026-04-13",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "교통",
+      "merchant": "주차",
+      "item": "주차",
+      "amount": 2500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_rx9r8sr"
+    },
+    {
+      "id": "_d59kurh",
+      "date": "2026-04-13",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "의료",
+      "merchant": "보라연한의원",
+      "item": "보라연한의원",
+      "amount": 15500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_tbm8z7e"
+    },
+    {
+      "id": "_jyf8qhy",
+      "date": "2026-04-13",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "영상",
+      "merchant": "조명 베터리",
+      "item": "조명 베터리",
+      "amount": 131682,
+      "memo": "ali",
+      "source": "manual",
+      "linkedId": "_i8ow4f4"
+    },
+    {
+      "id": "_7wbm58n",
+      "date": "2026-04-13",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "식비",
+      "merchant": "치킨",
+      "item": "치킨",
+      "amount": 23000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_pip7aet"
+    },
+    {
+      "id": "_1d2qzx5",
+      "date": "2026-04-13",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "주거",
+      "merchant": "도시가스",
+      "item": "도시가스",
+      "amount": 245180,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_9ors9v6"
     }
   ],
   "transfers": [
@@ -1489,5 +1635,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-13T19:23:28.178Z"
+  "savedAt": "2026-04-13T19:28:21.290Z"
 }
