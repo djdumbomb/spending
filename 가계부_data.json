@@ -577,6 +577,18 @@
       "payMethod": "card",
       "linkedId": "_35y18iy",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_b2wrl2m",
+      "date": "2026-04-13",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "치킨",
+      "amount": 23000,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_96oqtdd",
+      "payDetail": "롯데카드 *7653"
     }
   ],
   "cardExpenses": [
@@ -1240,6 +1252,19 @@
       "merchant": "방자네탕수육",
       "amount": 27000,
       "memo": ""
+    },
+    {
+      "id": "_96oqtdd",
+      "date": "2026-04-13",
+      "cat": "식비",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "merchant": "치킨",
+      "item": "치킨",
+      "amount": 23000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_b2wrl2m"
     }
   ],
   "transfers": [
@@ -1449,5 +1474,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-13T09:38:23.209Z"
+  "savedAt": "2026-04-13T18:55:30.964Z"
 }
