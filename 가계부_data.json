@@ -655,21 +655,8 @@
       "linkedId": "_jyf8qhy"
     },
     {
-      "id": "_pip7aet",
-      "date": "2026-04-13",
-      "type": "expense",
-      "cat": "식비",
-      "desc": "치킨",
-      "amount": 23000,
-      "memo": "",
-      "payMethod": "card",
-      "payDetail": "롯데카드 *7653",
-      "source": "manual",
-      "linkedId": "_7wbm58n"
-    },
-    {
-      "id": "_9ors9v6",
-      "date": "2026-04-13",
+      "id": "_0skt7tj",
+      "date": "2026-04-08",
       "type": "expense",
       "cat": "주거",
       "desc": "도시가스",
@@ -678,7 +665,20 @@
       "payMethod": "card",
       "payDetail": "롯데카드 *7653",
       "source": "manual",
-      "linkedId": "_1d2qzx5"
+      "linkedId": "_kmawhk4"
+    },
+    {
+      "id": "_yr3ghkg",
+      "date": "2026-04-03",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "버스",
+      "amount": 3100,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_cu2kgcp"
     }
   ],
   "cardExpenses": [
@@ -1265,26 +1265,6 @@
       "linkedId": "_trzhcj2"
     },
     {
-      "id": "_73m6wsu",
-      "date": "2026-04-08",
-      "issuer": "롯데카드",
-      "cardLabel": "롯데카드 *7653",
-      "cat": "주거",
-      "merchant": "삼천리도시가스",
-      "amount": 245180,
-      "memo": ""
-    },
-    {
-      "id": "_q11mqfg",
-      "date": "2026-04-02",
-      "issuer": "롯데카드",
-      "cardLabel": "롯데카드 *7653",
-      "cat": "교통",
-      "merchant": "버스",
-      "amount": 3100,
-      "memo": ""
-    },
-    {
       "id": "_iq61dgu",
       "date": "2026-04-10",
       "cat": "식비",
@@ -1402,21 +1382,8 @@
       "linkedId": "_i8ow4f4"
     },
     {
-      "id": "_7wbm58n",
-      "date": "2026-04-13",
-      "issuer": "롯데카드",
-      "cardLabel": "롯데카드 *7653",
-      "cat": "식비",
-      "merchant": "치킨",
-      "item": "치킨",
-      "amount": 23000,
-      "memo": "",
-      "source": "manual",
-      "linkedId": "_pip7aet"
-    },
-    {
-      "id": "_1d2qzx5",
-      "date": "2026-04-13",
+      "id": "_kmawhk4",
+      "date": "2026-04-08",
       "issuer": "롯데카드",
       "cardLabel": "롯데카드 *7653",
       "cat": "주거",
@@ -1425,7 +1392,20 @@
       "amount": 245180,
       "memo": "",
       "source": "manual",
-      "linkedId": "_9ors9v6"
+      "linkedId": "_0skt7tj"
+    },
+    {
+      "id": "_cu2kgcp",
+      "date": "2026-04-03",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "교통",
+      "merchant": "버스",
+      "item": "버스",
+      "amount": 3100,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_yr3ghkg"
     }
   ],
   "transfers": [
@@ -1635,5 +1615,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-13T19:28:21.290Z"
+  "savedAt": "2026-04-13T19:37:46.103Z"
 }
