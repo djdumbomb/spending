@@ -589,6 +589,18 @@
       "payMethod": "card",
       "linkedId": "_96oqtdd",
       "payDetail": "롯데카드 *7653"
+    },
+    {
+      "id": "_fga7ud2",
+      "date": "2026-04-12",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "치킨",
+      "amount": 19500,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_277ngo8",
+      "payDetail": "롯데카드 *7653"
     }
   ],
   "cardExpenses": [
@@ -1265,6 +1277,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_b2wrl2m"
+    },
+    {
+      "id": "_277ngo8",
+      "date": "2026-04-12",
+      "cat": "식비",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "merchant": "치킨",
+      "item": "치킨",
+      "amount": 19500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_fga7ud2"
     }
   ],
   "transfers": [
@@ -1474,5 +1499,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-13T18:55:30.964Z"
+  "savedAt": "2026-04-13T18:57:00.271Z"
 }
