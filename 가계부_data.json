@@ -679,6 +679,42 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_cu2kgcp"
+    },
+    {
+      "id": "_dggyohr",
+      "date": "2026-04-14",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "보라연한의원",
+      "amount": 27200,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_2ywrsj1",
+      "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_vx2x6g2",
+      "date": "2026-04-14",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "단운정",
+      "amount": 52600,
+      "memo": "브런치",
+      "payMethod": "card",
+      "linkedId": "_q5ljxdi",
+      "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_s2gu538",
+      "date": "2026-04-14",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "단운정",
+      "amount": 5800,
+      "memo": "커피",
+      "payMethod": "card",
+      "linkedId": "_puyfja0",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1406,6 +1442,45 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_yr3ghkg"
+    },
+    {
+      "id": "_2ywrsj1",
+      "date": "2026-04-14",
+      "cat": "의료",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "보라연한의원",
+      "item": "보라연한의원",
+      "amount": 27200,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_dggyohr"
+    },
+    {
+      "id": "_q5ljxdi",
+      "date": "2026-04-14",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "단운정",
+      "item": "단운정",
+      "amount": 52600,
+      "memo": "브런치",
+      "source": "manual",
+      "linkedId": "_vx2x6g2"
+    },
+    {
+      "id": "_puyfja0",
+      "date": "2026-04-14",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "단운정",
+      "item": "단운정",
+      "amount": 5800,
+      "memo": "커피",
+      "source": "manual",
+      "linkedId": "_s2gu538"
     }
   ],
   "transfers": [
@@ -1615,5 +1690,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-13T19:38:32.786Z"
+  "savedAt": "2026-04-14T06:31:03.579Z"
 }
