@@ -715,6 +715,16 @@
       "payMethod": "card",
       "linkedId": "_puyfja0",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_uvwjnnm",
+      "date": "2026-04-14",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "다원맛집",
+      "amount": 12000,
+      "memo": "민두 포장",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -1690,5 +1700,5 @@
       "color": "#3B82F6"
     }
   ],
-  "savedAt": "2026-04-14T06:31:03.579Z"
+  "savedAt": "2026-04-15T06:32:59.924Z"
 }
