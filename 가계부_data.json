@@ -770,6 +770,45 @@
       "payDetail": "네이버페이",
       "source": "manual",
       "linkedId": "_pnfpurm"
+    },
+    {
+      "id": "_s2knrgg",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "롯데프리미엄아울렛",
+      "amount": 38200,
+      "memo": "유니클로 아리 아서 옷",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_dwpxp3c"
+    },
+    {
+      "id": "_v4o4fpu",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "롯데프리미엄아울렛",
+      "amount": 39900,
+      "memo": "크록스",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_9dfmnw5"
+    },
+    {
+      "id": "_2w5a8sx",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "롯데프리미엄아울렛",
+      "amount": 10800,
+      "memo": "폴바셋",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_e6jepqp"
     }
   ],
   "cardExpenses": [
@@ -1575,6 +1614,45 @@
       "memo": "Lg공기청정기필터",
       "source": "manual",
       "linkedId": "_zw9tzpg"
+    },
+    {
+      "id": "_dwpxp3c",
+      "date": "2026-04-15",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "육아",
+      "merchant": "롯데프리미엄아울렛",
+      "item": "롯데프리미엄아울렛",
+      "amount": 38200,
+      "memo": "유니클로 아리 아서 옷",
+      "source": "manual",
+      "linkedId": "_s2knrgg"
+    },
+    {
+      "id": "_9dfmnw5",
+      "date": "2026-04-15",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "육아",
+      "merchant": "롯데프리미엄아울렛",
+      "item": "롯데프리미엄아울렛",
+      "amount": 39900,
+      "memo": "크록스",
+      "source": "manual",
+      "linkedId": "_v4o4fpu"
+    },
+    {
+      "id": "_e6jepqp",
+      "date": "2026-04-15",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "카페",
+      "merchant": "롯데프리미엄아울렛",
+      "item": "롯데프리미엄아울렛",
+      "amount": 10800,
+      "memo": "폴바셋",
+      "source": "manual",
+      "linkedId": "_2w5a8sx"
     }
   ],
   "transfers": [
@@ -1790,5 +1868,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-15T09:24:03.377Z"
+  "savedAt": "2026-04-15T09:27:51.906Z"
 }
