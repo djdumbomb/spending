@@ -731,6 +731,45 @@
       "amount": 12000,
       "memo": "민두 포장",
       "payMethod": "cash"
+    },
+    {
+      "id": "_i4gn28j",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "청딤장어",
+      "amount": 80000,
+      "memo": "수내동",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_gnry3mr"
+    },
+    {
+      "id": "_npdns3n",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "커피빈",
+      "amount": 5500,
+      "memo": "수내동",
+      "payMethod": "card",
+      "payDetail": "네이버페이",
+      "source": "manual",
+      "linkedId": "_1smzhgk"
+    },
+    {
+      "id": "_zw9tzpg",
+      "date": "2026-04-14",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "네이버쇼핑",
+      "amount": 90000,
+      "memo": "Lg공기청정기필터",
+      "payMethod": "card",
+      "payDetail": "네이버페이",
+      "source": "manual",
+      "linkedId": "_pnfpurm"
     }
   ],
   "cardExpenses": [
@@ -1497,6 +1536,45 @@
       "memo": "커피",
       "source": "manual",
       "linkedId": "_s2gu538"
+    },
+    {
+      "id": "_gnry3mr",
+      "date": "2026-04-15",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "외식",
+      "merchant": "청딤장어",
+      "item": "청딤장어",
+      "amount": 80000,
+      "memo": "수내동",
+      "source": "manual",
+      "linkedId": "_i4gn28j"
+    },
+    {
+      "id": "_1smzhgk",
+      "date": "2026-04-15",
+      "issuer": "네이버페이",
+      "cardLabel": "네이버페이",
+      "cat": "카페",
+      "merchant": "커피빈",
+      "item": "커피빈",
+      "amount": 5500,
+      "memo": "수내동",
+      "source": "manual",
+      "linkedId": "_npdns3n"
+    },
+    {
+      "id": "_pnfpurm",
+      "date": "2026-04-14",
+      "issuer": "네이버페이",
+      "cardLabel": "네이버페이",
+      "cat": "기타",
+      "merchant": "네이버쇼핑",
+      "item": "네이버쇼핑",
+      "amount": 90000,
+      "memo": "Lg공기청정기필터",
+      "source": "manual",
+      "linkedId": "_zw9tzpg"
     }
   ],
   "transfers": [
@@ -1712,5 +1790,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-15T09:19:53.424Z"
+  "savedAt": "2026-04-15T09:24:03.377Z"
 }
