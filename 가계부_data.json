@@ -809,6 +809,86 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_e6jepqp"
+    },
+    {
+      "id": "_gfmndxw",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "ks후룻베지파우치",
+      "amount": 39900,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_pkrtifb",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "무가당플레인요거트",
+      "amount": 6990,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_x1fnevq",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "수지스닭가슴안심살",
+      "amount": 11490,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_apkp1ev",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "EPA동원참치",
+      "amount": 19490,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_dft676w",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "탕종식빵",
+      "amount": 9790,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_5lbqv99",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "BOUCHARD초콜렛",
+      "amount": 32490,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_fdmejxf",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "동물복지란",
+      "amount": 17290,
+      "memo": "costco",
+      "payMethod": "cash"
+    },
+    {
+      "id": "_bckw12b",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "유기농바나나",
+      "amount": 4190,
+      "memo": "costco",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -1868,5 +1948,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-15T09:29:15.608Z"
+  "savedAt": "2026-04-16T04:29:34.226Z"
 }
