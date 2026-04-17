@@ -933,7 +933,7 @@
       "cat": "의료",
       "desc": "보려연한의원",
       "amount": 27200,
-      "memo": "",
+      "memo": "추나",
       "payMethod": "card",
       "linkedId": "_8hao3sx",
       "payDetail": "삼성카드 *4928"
@@ -1830,7 +1830,7 @@
       "merchant": "보려연한의원",
       "item": "보려연한의원",
       "amount": 27200,
-      "memo": "",
+      "memo": "추나",
       "source": "manual",
       "linkedId": "_a506ehi"
     }
@@ -2042,5 +2042,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:33:54.903Z"
+  "savedAt": "2026-04-17T11:34:06.549Z"
 }
