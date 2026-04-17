@@ -961,6 +961,18 @@
       "payMethod": "card",
       "linkedId": "_hvq05lr",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_olhq0ki",
+      "date": "2026-04-16",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "폴바셋",
+      "amount": 10800,
+      "memo": "롯데아울렛",
+      "payMethod": "card",
+      "linkedId": "_5ihy4bk",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1883,6 +1895,19 @@
       "memo": "이마트",
       "source": "manual",
       "linkedId": "_54sjwc3"
+    },
+    {
+      "id": "_5ihy4bk",
+      "date": "2026-04-16",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "폴바셋",
+      "item": "폴바셋",
+      "amount": 10800,
+      "memo": "롯데아울렛",
+      "source": "manual",
+      "linkedId": "_olhq0ki"
     }
   ],
   "transfers": [
@@ -2092,5 +2117,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:36:15.449Z"
+  "savedAt": "2026-04-17T11:36:57.322Z"
 }
