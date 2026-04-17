@@ -901,6 +901,18 @@
       "payMethod": "card",
       "linkedId": "_1nlqzqj",
       "payDetail": "롯데카드 *7653"
+    },
+    {
+      "id": "_bydo5lo",
+      "date": "2026-04-17",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "낭민뒷고기",
+      "amount": 39900,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_51rggz5",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1758,6 +1770,19 @@
       "memo": "염민아",
       "source": "manual",
       "linkedId": "_zpilwvj"
+    },
+    {
+      "id": "_51rggz5",
+      "date": "2026-04-17",
+      "cat": "외식",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "낭민뒷고기",
+      "item": "낭민뒷고기",
+      "amount": 39900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_bydo5lo"
     }
   ],
   "transfers": [
@@ -1967,5 +1992,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:32:29.826Z"
+  "savedAt": "2026-04-17T11:33:14.728Z"
 }
