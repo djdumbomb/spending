@@ -949,6 +949,18 @@
       "payMethod": "card",
       "linkedId": "_w4u4oow",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_54sjwc3",
+      "date": "2026-04-16",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "회,소주",
+      "amount": 32100,
+      "memo": "이마트",
+      "payMethod": "card",
+      "linkedId": "_hvq05lr",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1858,6 +1870,19 @@
       "memo": "크팡",
       "source": "manual",
       "linkedId": "_ub3f3tl"
+    },
+    {
+      "id": "_hvq05lr",
+      "date": "2026-04-16",
+      "cat": "외식",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "회,소주",
+      "item": "회,소주",
+      "amount": 32100,
+      "memo": "이마트",
+      "source": "manual",
+      "linkedId": "_54sjwc3"
     }
   ],
   "transfers": [
@@ -2067,5 +2092,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:35:24.389Z"
+  "savedAt": "2026-04-17T11:36:15.449Z"
 }
