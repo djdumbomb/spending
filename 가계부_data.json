@@ -889,6 +889,18 @@
       "amount": 4190,
       "memo": "costco",
       "payMethod": "cash"
+    },
+    {
+      "id": "_zpilwvj",
+      "date": "2026-04-16",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "파네시마",
+      "amount": 51000,
+      "memo": "염민아",
+      "payMethod": "card",
+      "linkedId": "_1nlqzqj",
+      "payDetail": "롯데카드 *7653"
     }
   ],
   "cardExpenses": [
@@ -1733,6 +1745,19 @@
       "memo": "폴바셋",
       "source": "manual",
       "linkedId": "_2w5a8sx"
+    },
+    {
+      "id": "_1nlqzqj",
+      "date": "2026-04-16",
+      "cat": "외식",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "merchant": "파네시마",
+      "item": "파네시마",
+      "amount": 51000,
+      "memo": "염민아",
+      "source": "manual",
+      "linkedId": "_zpilwvj"
     }
   ],
   "transfers": [
@@ -1942,5 +1967,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:31:57.111Z"
+  "savedAt": "2026-04-17T11:32:29.826Z"
 }
