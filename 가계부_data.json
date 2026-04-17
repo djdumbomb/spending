@@ -693,7 +693,7 @@
       "cat": "의료",
       "desc": "보라연한의원",
       "amount": 27200,
-      "memo": "",
+      "memo": "추미",
       "payMethod": "card",
       "linkedId": "_2ywrsj1",
       "payDetail": "삼성카드 *4928"
@@ -1674,7 +1674,7 @@
       "merchant": "보라연한의원",
       "item": "보라연한의원",
       "amount": 27200,
-      "memo": "",
+      "memo": "추미",
       "source": "manual",
       "linkedId": "_dggyohr"
     },
@@ -2042,5 +2042,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:34:06.549Z"
+  "savedAt": "2026-04-17T11:34:26.835Z"
 }
