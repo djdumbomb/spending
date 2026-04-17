@@ -937,6 +937,18 @@
       "payMethod": "card",
       "linkedId": "_8hao3sx",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_ub3f3tl",
+      "date": "2026-04-17",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "분유",
+      "amount": 83800,
+      "memo": "크팡",
+      "payMethod": "card",
+      "linkedId": "_w4u4oow",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -1833,6 +1845,19 @@
       "memo": "추나",
       "source": "manual",
       "linkedId": "_a506ehi"
+    },
+    {
+      "id": "_w4u4oow",
+      "date": "2026-04-17",
+      "cat": "육아",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "분유",
+      "item": "분유",
+      "amount": 83800,
+      "memo": "크팡",
+      "source": "manual",
+      "linkedId": "_ub3f3tl"
     }
   ],
   "transfers": [
@@ -2042,5 +2067,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:34:26.835Z"
+  "savedAt": "2026-04-17T11:34:52.445Z"
 }
