@@ -973,6 +973,18 @@
       "payMethod": "card",
       "linkedId": "_5ihy4bk",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_ykfy1ub",
+      "date": "2026-04-16",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "커피인류",
+      "amount": 5800,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_1tbvvkg",
+      "payDetail": "KB국민카드 *9065"
     }
   ],
   "cardExpenses": [
@@ -1908,6 +1920,19 @@
       "memo": "롯데아울렛",
       "source": "manual",
       "linkedId": "_olhq0ki"
+    },
+    {
+      "id": "_1tbvvkg",
+      "date": "2026-04-16",
+      "cat": "카페",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "merchant": "커피인류",
+      "item": "커피인류",
+      "amount": 5800,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_ykfy1ub"
     }
   ],
   "transfers": [
@@ -2117,5 +2142,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-17T11:38:08.479Z"
+  "savedAt": "2026-04-17T11:38:38.947Z"
 }
