@@ -1206,6 +1206,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_enaajjc"
+    },
+    {
+      "id": "_4cqzhb8",
+      "date": "2026-04-21",
+      "type": "expense",
+      "cat": "통신",
+      "desc": "Kt",
+      "amount": 60380,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_94s8oex"
     }
   ],
   "cardExpenses": [
@@ -2375,6 +2388,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_v2ajn2m"
+    },
+    {
+      "id": "_94s8oex",
+      "date": "2026-04-21",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "통신",
+      "merchant": "Kt",
+      "item": "Kt",
+      "amount": 60380,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_4cqzhb8"
     }
   ],
   "transfers": [
@@ -2584,5 +2610,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:28:04.291Z"
+  "savedAt": "2026-04-22T12:28:33.988Z"
 }
