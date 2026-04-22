@@ -1151,7 +1151,7 @@
       "amount": 106280,
       "memo": "",
       "payMethod": "card",
-      "payDetail": "삼성카드 *4928",
+      "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_qarljnq"
     }
@@ -2262,8 +2262,8 @@
     {
       "id": "_qarljnq",
       "date": "2026-04-20",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
       "cat": "주거",
       "merchant": "전기요금",
       "item": "전기요금",
@@ -2480,5 +2480,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:16:45.337Z"
+  "savedAt": "2026-04-22T12:16:55.273Z"
 }
