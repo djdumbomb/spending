@@ -1323,6 +1323,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_161ssp5"
+    },
+    {
+      "id": "_o5gwqra",
+      "date": "2026-04-15",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "롯데프리미엄아울렛",
+      "amount": 17000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_qqmpjq7"
     }
   ],
   "cardExpenses": [
@@ -2609,6 +2622,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_zw83ese"
+    },
+    {
+      "id": "_qqmpjq7",
+      "date": "2026-04-15",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "외식",
+      "merchant": "롯데프리미엄아울렛",
+      "item": "롯데프리미엄아울렛",
+      "amount": 17000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_o5gwqra"
     }
   ],
   "transfers": [
@@ -2818,5 +2844,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:49:45.344Z"
+  "savedAt": "2026-04-22T12:49:53.153Z"
 }
