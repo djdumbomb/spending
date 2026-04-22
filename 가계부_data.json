@@ -1050,6 +1050,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_r3neq3w"
+    },
+    {
+      "id": "_wy3g6ek",
+      "date": "2026-04-19",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "캠프아이",
+      "amount": 5000,
+      "memo": "편의점 음료",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_katgd9y"
     }
   ],
   "cardExpenses": [
@@ -2063,6 +2076,19 @@
       "memo": "편의점 음료",
       "source": "manual",
       "linkedId": "_vwhf4bg"
+    },
+    {
+      "id": "_katgd9y",
+      "date": "2026-04-19",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "기타",
+      "merchant": "캠프아이",
+      "item": "캠프아이",
+      "amount": 5000,
+      "memo": "편의점 음료",
+      "source": "manual",
+      "linkedId": "_wy3g6ek"
     }
   ],
   "transfers": [
@@ -2272,5 +2298,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:10:18.771Z"
+  "savedAt": "2026-04-22T12:10:45.091Z"
 }
