@@ -1154,6 +1154,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_qarljnq"
+    },
+    {
+      "id": "_z8xeiqo",
+      "date": "2026-04-20",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "캠프아이",
+      "amount": 1500,
+      "memo": "음료",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_rnqcbym"
     }
   ],
   "cardExpenses": [
@@ -2271,6 +2284,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_8k984ki"
+    },
+    {
+      "id": "_rnqcbym",
+      "date": "2026-04-20",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "기타",
+      "merchant": "캠프아이",
+      "item": "캠프아이",
+      "amount": 1500,
+      "memo": "음료",
+      "source": "manual",
+      "linkedId": "_z8xeiqo"
     }
   ],
   "transfers": [
@@ -2480,5 +2506,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:16:55.273Z"
+  "savedAt": "2026-04-22T12:20:41.945Z"
 }
