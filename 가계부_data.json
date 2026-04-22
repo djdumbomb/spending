@@ -1258,6 +1258,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_j0jqfkz"
+    },
+    {
+      "id": "_dbp25j8",
+      "date": "2026-04-19",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "캠프아이",
+      "amount": 1500,
+      "memo": "라면",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_wjb0qi1"
     }
   ],
   "cardExpenses": [
@@ -2479,6 +2492,19 @@
       "memo": "낚지볶음",
       "source": "manual",
       "linkedId": "_e5207dd"
+    },
+    {
+      "id": "_wjb0qi1",
+      "date": "2026-04-19",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "기타",
+      "merchant": "캠프아이",
+      "item": "캠프아이",
+      "amount": 1500,
+      "memo": "라면",
+      "source": "manual",
+      "linkedId": "_dbp25j8"
     }
   ],
   "transfers": [
@@ -2688,5 +2714,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:44:07.348Z"
+  "savedAt": "2026-04-22T12:45:03.569Z"
 }
