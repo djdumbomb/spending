@@ -1336,6 +1336,16 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_qqmpjq7"
+    },
+    {
+      "id": "_5sgbrf7",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "랜드빌",
+      "amount": 413400,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2844,5 +2854,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:50:10.863Z"
+  "savedAt": "2026-04-22T12:54:04.728Z"
 }
