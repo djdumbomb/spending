@@ -1376,6 +1376,16 @@
       "amount": 32000,
       "memo": "",
       "payMethod": "cash"
+    },
+    {
+      "id": "_wh1mied",
+      "date": "2026-04-20",
+      "type": "expense",
+      "cat": "주거",
+      "desc": "월세",
+      "amount": 250000,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2884,5 +2894,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:55:41.905Z"
+  "savedAt": "2026-04-22T12:56:05.756Z"
 }
