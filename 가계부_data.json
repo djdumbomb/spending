@@ -1076,6 +1076,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_gx2txio"
+    },
+    {
+      "id": "_8rt61hu",
+      "date": "2026-04-19",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "주유소",
+      "amount": 117000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_e7t4fm2"
     }
   ],
   "cardExpenses": [
@@ -2115,6 +2128,19 @@
       "memo": "바베큐 비용",
       "source": "manual",
       "linkedId": "_c6a3lpa"
+    },
+    {
+      "id": "_e7t4fm2",
+      "date": "2026-04-19",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "교통",
+      "merchant": "주유소",
+      "item": "주유소",
+      "amount": 117000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_8rt61hu"
     }
   ],
   "transfers": [
@@ -2324,5 +2350,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:11:04.270Z"
+  "savedAt": "2026-04-22T12:11:29.178Z"
 }
