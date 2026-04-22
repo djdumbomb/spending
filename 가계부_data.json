@@ -1284,6 +1284,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_pt1m5td"
+    },
+    {
+      "id": "_3agfbbp",
+      "date": "2026-04-18",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "편의점",
+      "amount": 2300,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_a175lz0"
     }
   ],
   "cardExpenses": [
@@ -2531,6 +2544,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_s3fvsem"
+    },
+    {
+      "id": "_a175lz0",
+      "date": "2026-04-18",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "기타",
+      "merchant": "편의점",
+      "item": "편의점",
+      "amount": 2300,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_3agfbbp"
     }
   ],
   "transfers": [
@@ -2740,5 +2766,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:47:33.828Z"
+  "savedAt": "2026-04-22T12:48:34.766Z"
 }
