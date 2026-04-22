@@ -1346,6 +1346,16 @@
       "amount": 413400,
       "memo": "",
       "payMethod": "cash"
+    },
+    {
+      "id": "_tks08fj",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "딸기어린이집활동비",
+      "amount": 150000,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2854,5 +2864,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:54:04.728Z"
+  "savedAt": "2026-04-22T12:54:35.756Z"
 }
