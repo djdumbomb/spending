@@ -1356,6 +1356,16 @@
       "amount": 150000,
       "memo": "",
       "payMethod": "cash"
+    },
+    {
+      "id": "_31myjmt",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "하이패스충전",
+      "amount": 50000,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2864,5 +2874,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:54:35.756Z"
+  "savedAt": "2026-04-22T12:54:48.756Z"
 }
