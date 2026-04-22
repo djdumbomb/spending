@@ -985,6 +985,19 @@
       "payMethod": "card",
       "linkedId": "_1tbvvkg",
       "payDetail": "KB국민카드 *9065"
+    },
+    {
+      "id": "_h6219ou",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "커피바이브",
+      "amount": 12000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_qr8lxyd"
     }
   ],
   "cardExpenses": [
@@ -1933,6 +1946,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_ykfy1ub"
+    },
+    {
+      "id": "_qr8lxyd",
+      "date": "2026-04-22",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "카페",
+      "merchant": "커피바이브",
+      "item": "커피바이브",
+      "amount": 12000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_h6219ou"
     }
   ],
   "transfers": [
@@ -2142,5 +2168,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:08:05.639Z"
+  "savedAt": "2026-04-22T12:08:40.581Z"
 }
