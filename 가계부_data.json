@@ -1128,6 +1128,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_gqfm3n1"
+    },
+    {
+      "id": "_bdr0cty",
+      "date": "2026-04-21",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "편의점",
+      "amount": 12000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_fwlc4ey"
     }
   ],
   "cardExpenses": [
@@ -2219,6 +2232,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_nttk1x2"
+    },
+    {
+      "id": "_fwlc4ey",
+      "date": "2026-04-21",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "기타",
+      "merchant": "편의점",
+      "item": "편의점",
+      "amount": 12000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_bdr0cty"
     }
   ],
   "transfers": [
@@ -2428,5 +2454,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:14:49.787Z"
+  "savedAt": "2026-04-22T12:15:39.797Z"
 }
