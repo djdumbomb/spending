@@ -1102,6 +1102,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_vm56g93"
+    },
+    {
+      "id": "_kefcss6",
+      "date": "2026-04-18",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "배달",
+      "amount": 34800,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_p91ecjd"
     }
   ],
   "cardExpenses": [
@@ -2167,6 +2180,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_japx29f"
+    },
+    {
+      "id": "_p91ecjd",
+      "date": "2026-04-18",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "외식",
+      "merchant": "배달",
+      "item": "배달",
+      "amount": 34800,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_kefcss6"
     }
   ],
   "transfers": [
@@ -2376,5 +2402,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:12:51.569Z"
+  "savedAt": "2026-04-22T12:13:48.102Z"
 }
