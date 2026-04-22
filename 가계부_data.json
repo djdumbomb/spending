@@ -1245,6 +1245,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_550rif8"
+    },
+    {
+      "id": "_e5207dd",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "시골애",
+      "amount": 30000,
+      "memo": "낚지볶음",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_j0jqfkz"
     }
   ],
   "cardExpenses": [
@@ -2453,6 +2466,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_nl3t1a1"
+    },
+    {
+      "id": "_j0jqfkz",
+      "date": "2026-04-22",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "외식",
+      "merchant": "시골애",
+      "item": "시골애",
+      "amount": 30000,
+      "memo": "낚지볶음",
+      "source": "manual",
+      "linkedId": "_e5207dd"
     }
   ],
   "transfers": [
@@ -2662,5 +2688,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:30:44.011Z"
+  "savedAt": "2026-04-22T12:44:07.348Z"
 }
