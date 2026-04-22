@@ -1277,7 +1277,7 @@
       "date": "2026-04-18",
       "type": "expense",
       "cat": "카페",
-      "desc": "더저바피",
+      "desc": "도조카피",
       "amount": 4500,
       "memo": "",
       "payMethod": "card",
@@ -2525,8 +2525,8 @@
       "issuer": "현대카드",
       "cardLabel": "현대카드 *1201",
       "cat": "카페",
-      "merchant": "도조커피",
-      "item": "더저바피",
+      "merchant": "도조카피",
+      "item": "도조카피",
       "amount": 4500,
       "memo": "",
       "source": "manual",
@@ -2740,5 +2740,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:47:16.074Z"
+  "savedAt": "2026-04-22T12:47:33.828Z"
 }
