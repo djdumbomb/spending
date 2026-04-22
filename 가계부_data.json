@@ -1024,6 +1024,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_ekgvtdh"
+    },
+    {
+      "id": "_mha7yfv",
+      "date": "2026-04-21",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "커피인류",
+      "amount": 2900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_xak18ig"
     }
   ],
   "cardExpenses": [
@@ -2011,6 +2024,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_6w246gu"
+    },
+    {
+      "id": "_xak18ig",
+      "date": "2026-04-21",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "카페",
+      "merchant": "커피인류",
+      "item": "커피인류",
+      "amount": 2900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_mha7yfv"
     }
   ],
   "transfers": [
@@ -2220,5 +2246,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:09:14.272Z"
+  "savedAt": "2026-04-22T12:09:33.075Z"
 }
