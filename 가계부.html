@@ -59,11 +59,6 @@
     header {
       background: var(--primary);
       color: #fff;
-      padding: 0 24px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -88,6 +83,9 @@
       transition: background .2s; white-space: nowrap;
     }
     header .header-btn:hover { background: rgba(255,255,255,.32); }
+    /* 2행 모바일 액션: 데스크탑에서 숨김 */
+    .header-row1 { display: flex; align-items: center; justify-content: space-between; padding: 0 24px; height: 60px; }
+    .header-row2 { display: none; }
     #receipt-badge {
       background: #EF4444; color: #fff; font-size: 10px; font-weight: 700;
       padding: 2px 6px; border-radius: 999px; display: none;
@@ -451,14 +449,25 @@
       .add-form { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 640px) {
-      header { padding: 0 12px; height: 52px; }
+      /* ── 헤더: 2줄 구조 ── */
+      .header-row1 {
+        padding: 0 12px;
+        height: 46px;
+      }
+      .header-row2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 0 12px 8px;
+      }
+      #header-actions-desktop { display: none !important; }
       header .logo { font-size: 15px; }
-      header .month-nav .month-label { font-size: 14px; min-width: 64px; }
+      header .month-nav .month-label { font-size: 14px; min-width: 66px; }
       header .month-nav button { width: 28px; height: 28px; font-size: 14px; }
       header .month-nav { gap: 6px; }
-      header .header-btn { padding: 5px 8px; font-size: 11px; }
-      .btn-text-desktop { display: none; }
-      #btn-gh-pull-header { display: inline-flex !important; }
+
+      /* ── 레이아웃 ── */
       .tabs { display: none !important; }
       .bottom-nav { display: block; }
       .container { padding: 14px 10px 80px; }
@@ -469,29 +478,60 @@
       .card-body { padding: 12px; }
       .card-header { padding: 11px 12px; }
       .card-title { font-size: 14px; }
-      .table-wrap { -webkit-overflow-scrolling: touch; }
-      thead th { font-size: 11px; padding: 8px 9px; }
-      tbody td { font-size: 12px; padding: 9px; }
       .filter-bar { gap: 6px; }
       .filter-bar input { min-width: 110px; font-size: 12px; }
       .filter-bar select { font-size: 12px; }
       .add-form { grid-template-columns: 1fr; gap: 8px; }
       .chart-wrap { height: 190px; }
-      #btn-connect-folder { display: none !important; }
-      #btn-import { display: none !important; }
-      #sync-status { display: none !important; }
       .settings-grid { grid-template-columns: 1fr; }
       .card-list-grid { grid-template-columns: 1fr; }
       .modal-box { padding: 16px 14px; border-radius: 16px; }
       .ocr-img-wrap { min-height: 140px; }
-      #gh-pull-banner { top: 56px; }
-      .col-desktop { display: none; }
+      #gh-pull-banner { top: 106px; }
+
+      /* ── 거래내역 테이블 → 카드형 ── */
+      .table-wrap table { display: none; }
+      .tx-card-list { display: flex; flex-direction: column; }
     }
     @media (max-width: 380px) {
       .summary-grid { grid-template-columns: 1fr; }
-      header .logo { display: none; }
-      header { justify-content: space-between; }
     }
+
+    /* ── 거래 카드 (모바일) ── */
+    .tx-card-list { display: none; } /* 데스크탑에선 숨김 */
+    .tx-mobile-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 11px 0;
+      border-bottom: 1px solid var(--gray-100);
+    }
+    .tx-mobile-row:last-child { border-bottom: none; }
+    .tx-mobile-icon {
+      width: 38px; height: 38px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 17px; flex-shrink: 0;
+      background: var(--gray-100);
+    }
+    .tx-mobile-main { flex: 1; min-width: 0; }
+    .tx-mobile-desc {
+      font-size: 13px; font-weight: 600; color: var(--gray-800);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .tx-mobile-meta {
+      font-size: 11px; color: var(--gray-400);
+      margin-top: 2px;
+      display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
+    }
+    .tx-mobile-right {
+      display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0;
+    }
+    .tx-mobile-amount {
+      font-size: 14px; font-weight: 700;
+    }
+    .tx-mobile-actions { display: flex; gap: 2px; }
+    .tx-mobile-actions .btn-edit { font-size: 13px; padding: 2px 5px; }
+    .tx-mobile-actions .btn-delete { font-size: 13px; padding: 2px 5px; }
 
     /* ── 빈 상태 ── */
     .empty-state {
@@ -745,23 +785,33 @@
 
 <!-- ═══ 헤더 ═══ -->
 <header>
-  <div class="logo">💰 가계부</div>
-  <div class="month-nav">
-    <button onclick="changeMonth(-1)">‹</button>
-    <span class="month-label" id="monthLabel"></span>
-    <button onclick="changeMonth(1)">›</button>
+  <!-- 1행: 로고 + 월 네비 -->
+  <div class="header-row1">
+    <div class="logo">💰 가계부</div>
+    <div class="month-nav">
+      <button onclick="changeMonth(-1)">‹</button>
+      <span class="month-label" id="monthLabel"></span>
+      <button onclick="changeMonth(1)">›</button>
+    </div>
+    <!-- 데스크탑 액션 (inline) -->
+    <div class="header-actions" id="header-actions-desktop">
+      <span id="sync-status" style="font-size:11px;color:rgba(255,255,255,.75);margin-right:4px;white-space:nowrap"></span>
+      <button class="header-btn" id="btn-save-needed" onclick="forceSaveToFolder()" title="변경사항을 폴더에 저장" style="display:none;background:rgba(255,180,0,.85);color:#000;font-weight:600">💾 저장 필요</button>
+      <button class="header-btn" onclick="ghShowBanner()" title="GitHub에서 최신 데이터 불러오기" style="display:none" id="btn-gh-pull-header">☁️</button>
+      <button class="header-btn" onclick="openOCRModal()" title="영수증 이미지를 스캔하여 자동 입력">📷 <span class="btn-text-desktop">영수증 스캔</span></button>
+      <button class="header-btn" id="btn-connect-folder" onclick="connectFolder()" title="프로젝트 폴더 연결 — 변경사항 자동 저장">📁 폴더 연결</button>
+      <label class="header-btn" id="btn-import" title="JSON 파일에서 데이터 가져오기" style="cursor:pointer">
+        📂 가져오기
+        <input type="file" accept=".json" onchange="importJSON(this)" style="display:none">
+      </label>
+      <button class="header-btn" onclick="exportJSON()" title="데이터를 JSON 파일로 백업">💾 <span class="btn-text-desktop">백업</span></button>
+    </div>
   </div>
-  <div class="header-actions">
-    <span id="sync-status" style="font-size:11px;color:rgba(255,255,255,.75);margin-right:4px;white-space:nowrap"></span>
-    <button class="header-btn" id="btn-save-needed" onclick="forceSaveToFolder()" title="변경사항을 폴더에 저장" style="display:none;background:rgba(255,180,0,.85);color:#000;font-weight:600">💾 저장 필요</button>
-    <button class="header-btn" onclick="ghShowBanner()" title="GitHub에서 최신 데이터 불러오기" style="display:none" id="btn-gh-pull-header">☁️</button>
-    <button class="header-btn" onclick="openOCRModal()" title="영수증 이미지를 스캔하여 자동 입력">📷 <span class="btn-text-desktop">영수증 스캔</span></button>
-    <button class="header-btn" id="btn-connect-folder" onclick="connectFolder()" title="프로젝트 폴더 연결 — 변경사항 자동 저장">📁 폴더 연결</button>
-    <label class="header-btn" id="btn-import" title="JSON 파일에서 데이터 가져오기" style="cursor:pointer">
-      📂 가져오기
-      <input type="file" accept=".json" onchange="importJSON(this)" style="display:none">
-    </label>
-    <button class="header-btn" onclick="exportJSON()" title="데이터를 JSON 파일로 백업">💾 <span class="btn-text-desktop">백업</span></button>
+  <!-- 2행: 모바일 액션 버튼 (모바일에서만 표시) -->
+  <div class="header-row2" id="header-actions-mobile">
+    <button class="header-btn" onclick="ghShowBanner()" id="btn-gh-pull-mobile">☁️ 불러오기</button>
+    <button class="header-btn" onclick="openOCRModal()">📷 영수증 스캔</button>
+    <button class="header-btn" onclick="exportJSON()">💾 백업</button>
   </div>
 </header>
 
@@ -938,6 +988,8 @@
             </thead>
             <tbody id="tx-tbody"></tbody>
           </table>
+          <!-- 모바일 카드형 리스트 -->
+          <div class="tx-card-list" id="tx-mobile-list"></div>
           <div class="empty-state" id="tx-empty" style="display:none">
             <div class="icon">📭</div>
             <p>거래 내역이 없습니다.</p>
@@ -2695,7 +2747,7 @@ function renderCharts() {
 }
 
 // ═══════════════════════════════════════════
-//  거래 내역 테이블
+//  거래 내역 테이블 + 모바일 카드 리스트
 // ═══════════════════════════════════════════
 function renderTransactions() {
   const q    = document.getElementById('search-input').value.toLowerCase();
@@ -2719,13 +2771,20 @@ function renderTransactions() {
 
   const allRows = [...txRows, ...trRows].sort((a, b) => b.date.localeCompare(a.date));
 
-  const tbody = document.getElementById('tx-tbody');
-  const empty = document.getElementById('tx-empty');
+  const tbody     = document.getElementById('tx-tbody');
+  const mobileList = document.getElementById('tx-mobile-list');
+  const empty     = document.getElementById('tx-empty');
   document.getElementById('tx-count-label').textContent = `${allRows.length}건`;
 
-  if (!allRows.length) { tbody.innerHTML = ''; empty.style.display = 'block'; return; }
+  if (!allRows.length) {
+    tbody.innerHTML = '';
+    if (mobileList) mobileList.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
   empty.style.display = 'none';
 
+  // ── 데스크탑 테이블 ──
   tbody.innerHTML = allRows.map(t => {
     if (t._kind === 'tr') {
       const isOut   = t.direction === 'out';
@@ -2757,6 +2816,89 @@ function renderTransactions() {
         <button class="btn-delete" onclick="deleteTx('${t.id}')">✕</button>
       </td>
     </tr>`;
+  }).join('');
+
+  // ── 모바일 카드형 리스트 ──
+  if (!mobileList) return;
+
+  // 날짜별 그룹핑
+  const groups = {};
+  allRows.forEach(t => {
+    const d = t.date;
+    if (!groups[d]) groups[d] = [];
+    groups[d].push(t);
+  });
+  const sortedDates = Object.keys(groups).sort((a,b) => b.localeCompare(a));
+
+  mobileList.innerHTML = sortedDates.map(date => {
+    const rows = groups[date];
+    const dayTotal = rows.reduce((s, t) => {
+      if (t._kind === 'tr') return s - (t.direction==='out' ? t.amount : -t.amount);
+      return s + (t.type === 'income' ? t.amount : -t.amount);
+    }, 0);
+    const dayTotalStr = (dayTotal >= 0 ? '+' : '') + fmt(Math.abs(dayTotal));
+    const dayTotalColor = dayTotal >= 0 ? 'var(--success)' : 'var(--danger)';
+
+    const rowsHtml = rows.map(t => {
+      if (t._kind === 'tr') {
+        const isOut = t.direction === 'out';
+        const catLabel = t.cat || '이체';
+        const icon = isOut ? '↑' : '↓';
+        const desc = escH(t.counterpart || '이체');
+        const sub  = [t.from, t.to].filter(Boolean).join(' → ');
+        return `<div class="tx-mobile-row">
+          <div class="tx-mobile-icon" style="background:#E0E7FF;color:#4338CA;font-size:15px">${icon}</div>
+          <div class="tx-mobile-main">
+            <div class="tx-mobile-desc">${desc}</div>
+            <div class="tx-mobile-meta">
+              <span class="badge badge-이체" style="font-size:10px;padding:2px 7px">이체</span>
+              ${catLabel !== '이체' ? `<span class="badge badge-${catLabel}" style="font-size:10px;padding:2px 7px">${catLabel}</span>` : ''}
+              ${sub ? `<span>${escH(sub)}</span>` : ''}
+            </div>
+          </div>
+          <div class="tx-mobile-right">
+            <div class="tx-mobile-amount ${isOut?'amount-expense':'amount-income'}">${isOut?'-':'+'}${fmt(t.amount)}</div>
+            <div class="tx-mobile-actions">
+              <button class="btn-edit" onclick="editTransfer('${t.id}')">✎</button>
+              <button class="btn-delete" onclick="deleteTransfer('${t.id}')">✕</button>
+            </div>
+          </div>
+        </div>`;
+      }
+      // 일반 거래
+      const isIncome = t.type === 'income';
+      const catObj = state.categories.find(c => c.name === t.cat) || {};
+      const catIcon = catObj.icon || (isIncome ? '💰' : '💸');
+      const catColor = catObj.color || (isIncome ? '#10B981' : '#6366F1');
+      const memo = t.memo ? `<span style="color:var(--gray-400)">${escH(t.memo)}</span>` : '';
+      const payIcon = t.payMethod==='card' ? '💳' : t.payMethod==='transfer' ? '🏦' : '💵';
+      return `<div class="tx-mobile-row">
+        <div class="tx-mobile-icon" style="background:${catColor}22;color:${catColor}">${catIcon}</div>
+        <div class="tx-mobile-main">
+          <div class="tx-mobile-desc">${escH(t.desc)}</div>
+          <div class="tx-mobile-meta">
+            <span class="badge badge-${isIncome?'수입':t.cat}" style="font-size:10px;padding:2px 7px">${isIncome?'수입':t.cat}</span>
+            <span>${payIcon}</span>
+            ${memo}
+          </div>
+        </div>
+        <div class="tx-mobile-right">
+          <div class="tx-mobile-amount ${isIncome?'amount-income':'amount-expense'}">${isIncome?'+':'-'}${fmt(t.amount)}</div>
+          <div class="tx-mobile-actions">
+            <button class="btn-edit" onclick="editTx('${t.id}')">✎</button>
+            <button class="btn-delete" onclick="deleteTx('${t.id}')">✕</button>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    return `<div style="margin-bottom:4px">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0 4px;border-bottom:2px solid var(--gray-100);margin-bottom:2px">
+        <span style="font-size:11px;font-weight:700;color:var(--gray-500)">${date}</span>
+        <span style="font-size:12px;font-weight:700;color:${dayTotalColor}">${dayTotalStr}</span>
+      </div>
+      ${rowsHtml}
+    </div>`;
   }).join('');
 }
 
