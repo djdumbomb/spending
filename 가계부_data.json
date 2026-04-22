@@ -1180,6 +1180,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_tjq4r06"
+    },
+    {
+      "id": "_jiiw5ye",
+      "date": "2026-04-21",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "배달",
+      "amount": 29500,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_1jhktyc"
     }
   ],
   "cardExpenses": [
@@ -2323,6 +2336,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_9gwalw8"
+    },
+    {
+      "id": "_1jhktyc",
+      "date": "2026-04-21",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "외식",
+      "merchant": "배달",
+      "item": "배달",
+      "amount": 29500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_jiiw5ye"
     }
   ],
   "transfers": [
@@ -2532,5 +2558,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:21:51.368Z"
+  "savedAt": "2026-04-22T12:27:41.291Z"
 }
