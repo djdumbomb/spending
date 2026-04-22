@@ -998,6 +998,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_qr8lxyd"
+    },
+    {
+      "id": "_5u16m72",
+      "date": "2026-04-22",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "우지커피",
+      "amount": 2400,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_o8voq8m"
     }
   ],
   "cardExpenses": [
@@ -1959,6 +1972,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_h6219ou"
+    },
+    {
+      "id": "_o8voq8m",
+      "date": "2026-04-22",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "카페",
+      "merchant": "우지커피",
+      "item": "우지커피",
+      "amount": 2400,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_5u16m72"
     }
   ],
   "transfers": [
@@ -2168,5 +2194,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:08:40.581Z"
+  "savedAt": "2026-04-22T12:08:54.271Z"
 }
