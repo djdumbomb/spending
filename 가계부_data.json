@@ -1128,6 +1128,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_gqfm3n1"
+    },
+    {
+      "id": "_6yetrhi",
+      "date": "2026-04-18",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "낭만뒷고기",
+      "amount": 33900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_iqr2fvb"
     }
   ],
   "cardExpenses": [
@@ -2219,6 +2232,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_nttk1x2"
+    },
+    {
+      "id": "_iqr2fvb",
+      "date": "2026-04-18",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "외식",
+      "merchant": "낭만뒷고기",
+      "item": "낭만뒷고기",
+      "amount": 33900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_6yetrhi"
     }
   ],
   "transfers": [
@@ -2428,5 +2454,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:14:02.950Z"
+  "savedAt": "2026-04-22T12:14:23.136Z"
 }
