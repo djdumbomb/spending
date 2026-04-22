@@ -1271,6 +1271,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_wjb0qi1"
+    },
+    {
+      "id": "_s3fvsem",
+      "date": "2026-04-18",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "더저바피",
+      "amount": 4500,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_pt1m5td"
     }
   ],
   "cardExpenses": [
@@ -2505,6 +2518,19 @@
       "memo": "라면",
       "source": "manual",
       "linkedId": "_dbp25j8"
+    },
+    {
+      "id": "_pt1m5td",
+      "date": "2026-04-18",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "카페",
+      "merchant": "더저바피",
+      "item": "더저바피",
+      "amount": 4500,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_s3fvsem"
     }
   ],
   "transfers": [
@@ -2714,5 +2740,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:45:03.569Z"
+  "savedAt": "2026-04-22T12:46:02.903Z"
 }
