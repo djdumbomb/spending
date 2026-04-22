@@ -1089,6 +1089,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_e7t4fm2"
+    },
+    {
+      "id": "_japx29f",
+      "date": "2026-04-19",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "국가대표축산",
+      "amount": 53100,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_vm56g93"
     }
   ],
   "cardExpenses": [
@@ -2141,6 +2154,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_8rt61hu"
+    },
+    {
+      "id": "_vm56g93",
+      "date": "2026-04-19",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "식비",
+      "merchant": "국가대표축산",
+      "item": "국가대표축산",
+      "amount": 53100,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_japx29f"
     }
   ],
   "transfers": [
@@ -2350,5 +2376,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:11:29.178Z"
+  "savedAt": "2026-04-22T12:12:11.006Z"
 }
