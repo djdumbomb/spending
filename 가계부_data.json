@@ -1232,6 +1232,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_lfi6dz3"
+    },
+    {
+      "id": "_nl3t1a1",
+      "date": "2026-04-18",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "미음제빵소",
+      "amount": 12600,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_550rif8"
     }
   ],
   "cardExpenses": [
@@ -2427,6 +2440,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_boavnan"
+    },
+    {
+      "id": "_550rif8",
+      "date": "2026-04-18",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "카페",
+      "merchant": "미음제빵소",
+      "item": "미음제빵소",
+      "amount": 12600,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_nl3t1a1"
     }
   ],
   "transfers": [
@@ -2636,5 +2662,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-22T12:29:43.962Z"
+  "savedAt": "2026-04-22T12:30:13.291Z"
 }
