@@ -2488,8 +2488,11 @@ function switchTab(name) {
   });
   document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
   document.getElementById(`tab-${name}`).classList.add('active');
-  if (name === 'overview')  renderCharts();
-  if (name === 'settings')  renderSettings();
+  if (name === 'overview')      renderCharts();
+  if (name === 'transactions')  renderTransactions();
+  if (name === 'cards')         renderCards();
+  if (name === 'transfers')     renderTransfers();
+  if (name === 'settings')      renderSettings();
 }
 
 // 모바일 하단 탭바
