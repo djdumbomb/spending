@@ -443,6 +443,9 @@
     .gh-banner-btn-skip:hover { background: var(--gray-200); }
 
     /* ── 반응형 ── */
+    /* ── 거래 카드 (모바일) ── */
+    .tx-card-list { display: none; } /* 데스크탑에선 숨김 */
+
     @media (max-width: 768px) {
       .chart-grid { grid-template-columns: 1fr; }
       .summary-grid { grid-template-columns: 1fr 1fr; }
@@ -491,14 +494,12 @@
 
       /* ── 거래내역 테이블 → 카드형 ── */
       .table-wrap table { display: none; }
-      .tx-card-list { display: flex !important; flex-direction: column; }
+      .tx-card-list { display: flex; flex-direction: column; }
     }
     @media (max-width: 380px) {
       .summary-grid { grid-template-columns: 1fr; }
     }
 
-    /* ── 거래 카드 (모바일) ── */
-    .tx-card-list { display: none; } /* 데스크탑에선 숨김 */
     .tx-mobile-row {
       display: flex;
       align-items: center;
@@ -988,12 +989,12 @@
             </thead>
             <tbody id="tx-tbody"></tbody>
           </table>
-          <!-- 모바일 카드형 리스트 -->
-          <div class="tx-card-list" id="tx-mobile-list"></div>
-          <div class="empty-state" id="tx-empty" style="display:none">
-            <div class="icon">📭</div>
-            <p>거래 내역이 없습니다.</p>
-          </div>
+        </div>
+        <!-- 모바일 카드형 리스트 (table-wrap 바깥으로 분리) -->
+        <div class="tx-card-list" id="tx-mobile-list"></div>
+        <div class="empty-state" id="tx-empty" style="display:none">
+          <div class="icon">📭</div>
+          <p>거래 내역이 없습니다.</p>
         </div>
       </div>
     </div>
