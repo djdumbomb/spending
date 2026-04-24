@@ -1375,7 +1375,9 @@
       "desc": "주정차위반과탸료",
       "amount": 32000,
       "memo": "",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_j7s2cwt",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_wh1mied",
@@ -2752,6 +2754,19 @@
       "amount": 9500,
       "cat": "식비",
       "memo": "분식집"
+    },
+    {
+      "id": "_j7s2cwt",
+      "date": "2026-04-20",
+      "direction": "out",
+      "counterpart": "주정차위반과탸료",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 32000,
+      "memo": "",
+      "cat": "교통",
+      "source": "manual",
+      "linkedId": "_5r204rh"
     }
   ],
   "myCards": [
@@ -2904,5 +2919,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:45:58.533Z"
+  "savedAt": "2026-04-24T10:47:29.261Z"
 }
