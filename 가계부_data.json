@@ -225,8 +225,9 @@
       "memo": "오월돈가스",
       "source": "receipt",
       "sourceFile": "20260405_131114.jpg",
-      "linkedId": "d2679qaz",
-      "payDetail": "삼성카드 *4928"
+      "payDetail": "KB국민카드 *9065",
+      "linkedId": "_2b4ffdq",
+      "payMethod": "card"
     },
     {
       "id": "146emoc6",
@@ -1595,20 +1596,6 @@
       "linkedId": "vjrps8de"
     },
     {
-      "id": "d2679qaz",
-      "date": "2026-04-05",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "외식",
-      "merchant": "오월돈가스",
-      "item": "미니냉모밀",
-      "amount": 4000,
-      "memo": "오월돈가스",
-      "source": "receipt",
-      "sourceFile": "20260405_131114.jpg",
-      "linkedId": "i6vao2zj"
-    },
-    {
       "id": "_n0xw04a",
       "date": "2026-04-03",
       "cat": "카페",
@@ -2712,6 +2699,19 @@
       "memo": "오월돈가스",
       "source": "manual",
       "linkedId": "146emoc6"
+    },
+    {
+      "id": "_2b4ffdq",
+      "date": "2026-04-05",
+      "cat": "외식",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "merchant": "미니냉모밀",
+      "item": "미니냉모밀",
+      "amount": 4000,
+      "memo": "오월돈가스",
+      "source": "manual",
+      "linkedId": "i6vao2zj"
     }
   ],
   "transfers": [
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:59:31.672Z"
+  "savedAt": "2026-04-24T10:59:34.695Z"
 }
