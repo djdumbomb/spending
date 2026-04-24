@@ -212,8 +212,9 @@
       "memo": "오월돈가스",
       "source": "receipt",
       "sourceFile": "20260405_131114.jpg",
-      "linkedId": "24zxevii",
-      "payDetail": "삼성카드 *4928"
+      "payDetail": "하나카드 *1343",
+      "linkedId": "_84pehuf",
+      "payMethod": "card"
     },
     {
       "id": "i6vao2zj",
@@ -1582,20 +1583,6 @@
       "linkedId": "xq30dmi4"
     },
     {
-      "id": "24zxevii",
-      "date": "2026-04-05",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "외식",
-      "merchant": "오월돈까스",
-      "item": "오월돈까스",
-      "amount": 11000,
-      "memo": "오월돈가스",
-      "source": "receipt",
-      "sourceFile": "20260405_131114.jpg",
-      "linkedId": "vjrps8de"
-    },
-    {
       "id": "_n0xw04a",
       "date": "2026-04-03",
       "cat": "카페",
@@ -2712,6 +2699,19 @@
       "memo": "오월돈가스",
       "source": "manual",
       "linkedId": "i6vao2zj"
+    },
+    {
+      "id": "_84pehuf",
+      "date": "2026-04-05",
+      "cat": "외식",
+      "issuer": "하나카드",
+      "cardLabel": "하나카드 *1343",
+      "merchant": "오월돈까스",
+      "item": "오월돈까스",
+      "amount": 11000,
+      "memo": "오월돈가스",
+      "source": "manual",
+      "linkedId": "vjrps8de"
     }
   ],
   "transfers": [
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:59:37.770Z"
+  "savedAt": "2026-04-24T10:59:42.041Z"
 }
