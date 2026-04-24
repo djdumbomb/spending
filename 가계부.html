@@ -1214,7 +1214,7 @@
           <div class="settings-add-row" style="align-items:flex-end;flex-wrap:wrap">
             <div class="form-group" style="flex:0 0 62px;min-width:52px">
               <label>아이콘</label>
-              <input type="text" id="cat-inp-icon" placeholder="🏷️" maxlength="2"
+              <input type="text" id="cat-inp-icon" placeholder="🏷️" maxlength="8" oninput="this.value=[...this.value].slice(0,2).join('')" onclick="this.select()" title="이모지 붙여넣기 또는 직접 입력"
                 style="text-align:center;font-size:18px;padding:5px 4px" />
             </div>
             <div class="form-group" style="flex:1 1 140px;min-width:120px">
