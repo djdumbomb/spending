@@ -251,8 +251,9 @@
       "memo": "오월돈가스",
       "source": "receipt",
       "sourceFile": "20260405_131114.jpg",
-      "linkedId": "wx3dfmyv",
-      "payDetail": "삼성카드 *4928"
+      "payDetail": "롯데카드 *7653",
+      "linkedId": "_z2uyq52",
+      "payMethod": "card"
     },
     {
       "id": "pa2ih5bi",
@@ -1621,20 +1622,6 @@
       "linkedId": "146emoc6"
     },
     {
-      "id": "wx3dfmyv",
-      "date": "2026-04-05",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "외식",
-      "merchant": "오월돈가스",
-      "item": "미니우동",
-      "amount": 3000,
-      "memo": "오월돈가스",
-      "source": "receipt",
-      "sourceFile": "20260405_131114.jpg",
-      "linkedId": "k4ytqhs8"
-    },
-    {
       "id": "_n0xw04a",
       "date": "2026-04-03",
       "cat": "카페",
@@ -2712,6 +2699,19 @@
       "memo": "풍천나루",
       "source": "manual",
       "linkedId": "tn8uidhy"
+    },
+    {
+      "id": "_z2uyq52",
+      "date": "2026-04-05",
+      "cat": "외식",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "merchant": "미니우동",
+      "item": "미니우동",
+      "amount": 3000,
+      "memo": "오월돈가스",
+      "source": "manual",
+      "linkedId": "k4ytqhs8"
     }
   ],
   "transfers": [
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:59.794Z"
+  "savedAt": "2026-04-24T10:59:04.199Z"
 }
