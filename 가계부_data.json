@@ -1346,7 +1346,9 @@
       "desc": "랜드빌",
       "amount": 413400,
       "memo": "",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_vwi0hyv",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_tks08fj",
@@ -2783,6 +2785,19 @@
       "cat": "주거",
       "source": "manual",
       "linkedId": "_wh1mied"
+    },
+    {
+      "id": "_vwi0hyv",
+      "date": "2026-04-22",
+      "direction": "out",
+      "counterpart": "랜드빌",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 413400,
+      "memo": "",
+      "cat": "기타",
+      "source": "manual",
+      "linkedId": "_5sgbrf7"
     }
   ],
   "myCards": [
@@ -2935,5 +2950,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:53:28.125Z"
+  "savedAt": "2026-04-24T10:53:39.319Z"
 }
