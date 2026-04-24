@@ -262,9 +262,9 @@
       "memo": "네이버페이",
       "source": "receipt",
       "sourceFile": "AISelect_20260402_030116_N+.jpg",
-      "linkedId": "_6mzcg4x",
-      "payDetail": "삼성카드 *4928",
-      "payMethod": "card"
+      "payDetail": "네이버페이",
+      "payMethod": "card",
+      "linkedId": "_hx61zhs"
     },
     {
       "id": "j86q2i9r",
@@ -2699,11 +2699,11 @@
       "linkedId": "x02k5qit"
     },
     {
-      "id": "_6mzcg4x",
+      "id": "_hx61zhs",
       "date": "2026-04-01",
       "cat": "육아",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
+      "issuer": "네이버페이",
+      "cardLabel": "네이버페이",
       "merchant": "아넬라퓨레 10팩+10팩 짜먹는아넬라 시작과일A 과일퓨레",
       "item": "아넬라퓨레 10팩+10팩 짜먹는아넬라 시작과일A 과일퓨레",
       "amount": 49500,
@@ -2984,5 +2984,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:21.005Z"
+  "savedAt": "2026-04-24T10:58:24.546Z"
 }
