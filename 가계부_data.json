@@ -292,9 +292,9 @@
       "memo": "풍천나루",
       "source": "receipt",
       "sourceFile": "20260405_192947.jpg",
-      "payDetail": "하나카드 *1343",
-      "linkedId": "_8g5w0by",
-      "payMethod": "card"
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card",
+      "linkedId": "_cx133zq"
     },
     {
       "id": "_ipzls91",
@@ -2701,11 +2701,11 @@
       "linkedId": "b6xwi7lz"
     },
     {
-      "id": "_8g5w0by",
+      "id": "_cx133zq",
       "date": "2026-04-05",
       "cat": "외식",
-      "issuer": "하나카드",
-      "cardLabel": "하나카드 *1343",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "풍천나루",
       "item": "풍천나루",
       "amount": 88500,
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:56.278Z"
+  "savedAt": "2026-04-24T10:58:59.794Z"
 }
