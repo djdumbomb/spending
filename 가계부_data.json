@@ -184,9 +184,9 @@
       "memo": "동탄행복셀프주유소",
       "source": "receipt",
       "sourceFile": "20260403_135550.jpg",
-      "linkedId": "_svpbe8s",
-      "payDetail": "하나카드 *1343",
-      "payMethod": "card"
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card",
+      "linkedId": "_2665jnw"
     },
     {
       "id": "oqc9vgqw",
@@ -2701,11 +2701,11 @@
       "linkedId": "j86q2i9r"
     },
     {
-      "id": "_svpbe8s",
+      "id": "_2665jnw",
       "date": "2026-04-03",
       "cat": "교통",
-      "issuer": "하나카드",
-      "cardLabel": "하나카드 *1343",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "휘발유 (39.050L)",
       "item": "휘발유 (39.050L)",
       "amount": 74000,
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:46.110Z"
+  "savedAt": "2026-04-24T10:58:49.761Z"
 }
