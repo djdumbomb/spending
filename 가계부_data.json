@@ -1387,7 +1387,9 @@
       "desc": "월세",
       "amount": 250000,
       "memo": "",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_djql6bg",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_x7wqtlw",
@@ -2767,6 +2769,19 @@
       "cat": "교통",
       "source": "manual",
       "linkedId": "_5r204rh"
+    },
+    {
+      "id": "_djql6bg",
+      "date": "2026-04-20",
+      "direction": "out",
+      "counterpart": "월세",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 250000,
+      "memo": "",
+      "cat": "주거",
+      "source": "manual",
+      "linkedId": "_wh1mied"
     }
   ],
   "myCards": [
@@ -2919,5 +2934,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:47:29.261Z"
+  "savedAt": "2026-04-24T10:47:40.080Z"
 }
