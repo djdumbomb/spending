@@ -1473,6 +1473,18 @@
       "payMethod": "card",
       "linkedId": "_rf1tlvh",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_cptbw2w",
+      "date": "2026-04-21",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "Costco",
+      "amount": 268780,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_pysfn4k",
+      "payDetail": "현대카드 *1201"
     }
   ],
   "cardExpenses": [
@@ -2812,6 +2824,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_hke3u21"
+    },
+    {
+      "id": "_pysfn4k",
+      "date": "2026-04-21",
+      "cat": "식비",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "merchant": "Costco",
+      "item": "Costco",
+      "amount": 268780,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_cptbw2w"
     }
   ],
   "transfers": [
@@ -3086,5 +3111,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T11:03:58.249Z"
+  "savedAt": "2026-04-24T11:06:28.038Z"
 }
