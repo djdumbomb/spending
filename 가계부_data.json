@@ -142,7 +142,9 @@
       "memo": "트레이더스 (동탄점)",
       "source": "receipt",
       "sourceFile": "20260402_202444.jpg",
-      "linkedId": "njzd6dh5"
+      "linkedId": "_z6j9p8u",
+      "payDetail": "하나카드 *1343",
+      "payMethod": "card"
     },
     {
       "id": "nr4vlume",
@@ -1565,20 +1567,6 @@
       "linkedId": "xq30dmi4"
     },
     {
-      "id": "njzd6dh5",
-      "date": "2026-04-02",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "식비",
-      "merchant": "트레이더스 (동탄점)",
-      "item": "BBQ 훈제삼겹살",
-      "amount": 37480,
-      "memo": "트레이더스 (동탄점)",
-      "source": "receipt",
-      "sourceFile": "20260402_202444.jpg",
-      "linkedId": "th1llx3y"
-    },
-    {
       "id": "q5rki5cf",
       "date": "2026-04-02",
       "issuer": "삼성카드",
@@ -2706,6 +2694,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_o5gwqra"
+    },
+    {
+      "id": "_z6j9p8u",
+      "date": "2026-04-02",
+      "cat": "식비",
+      "issuer": "하나카드",
+      "cardLabel": "하나카드 *1343",
+      "merchant": "BBQ 훈제삼겹살",
+      "item": "BBQ 훈제삼겹살",
+      "amount": 37480,
+      "memo": "트레이더스 (동탄점)",
+      "source": "manual",
+      "linkedId": "th1llx3y"
     }
   ],
   "transfers": [
@@ -2980,5 +2981,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:57:18.576Z"
+  "savedAt": "2026-04-24T10:57:24.375Z"
 }
