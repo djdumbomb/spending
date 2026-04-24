@@ -170,9 +170,9 @@
       "memo": "외롱외롱 (용인 기흥구)",
       "source": "receipt",
       "sourceFile": "20260402_210112.jpg",
-      "payDetail": "현대카드 *1201",
-      "linkedId": "_i7k6xbh",
-      "payMethod": "card"
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card",
+      "linkedId": "_z82zdpd"
     },
     {
       "id": "b6xwi7lz",
@@ -2697,11 +2697,11 @@
       "linkedId": "nr4vlume"
     },
     {
-      "id": "_i7k6xbh",
+      "id": "_z82zdpd",
       "date": "2026-04-02",
       "cat": "외식",
-      "issuer": "현대카드",
-      "cardLabel": "현대카드 *1201",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "모듬회 외 1품목",
       "item": "모듬회 외 1품목",
       "amount": 72000,
@@ -2982,5 +2982,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:57:44.862Z"
+  "savedAt": "2026-04-24T10:57:48.388Z"
 }
