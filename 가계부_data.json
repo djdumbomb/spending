@@ -262,7 +262,9 @@
       "memo": "네이버페이",
       "source": "receipt",
       "sourceFile": "AISelect_20260402_030116_N+.jpg",
-      "linkedId": "l5s6060t"
+      "linkedId": "_6mzcg4x",
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card"
     },
     {
       "id": "j86q2i9r",
@@ -1642,20 +1644,6 @@
       "linkedId": "k4ytqhs8"
     },
     {
-      "id": "l5s6060t",
-      "date": "2026-04-01",
-      "issuer": "네이버페이",
-      "cardLabel": "네이버페이",
-      "cat": "육아",
-      "merchant": "네이버페이",
-      "item": "아넬라퓨레 10팩+10팩 짜먹는아넬라 시작과일A 과일퓨레",
-      "amount": 49500,
-      "memo": "네이버페이",
-      "source": "receipt",
-      "sourceFile": "AISelect_20260402_030116_N+.jpg",
-      "linkedId": "pa2ih5bi"
-    },
-    {
       "id": "5oixawx3",
       "date": "2026-04-01",
       "issuer": "네이버페이",
@@ -2709,6 +2697,19 @@
       "memo": "유캔두잇 용인공세점",
       "source": "manual",
       "linkedId": "x02k5qit"
+    },
+    {
+      "id": "_6mzcg4x",
+      "date": "2026-04-01",
+      "cat": "육아",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "아넬라퓨레 10팩+10팩 짜먹는아넬라 시작과일A 과일퓨레",
+      "item": "아넬라퓨레 10팩+10팩 짜먹는아넬라 시작과일A 과일퓨레",
+      "amount": 49500,
+      "memo": "네이버페이",
+      "source": "manual",
+      "linkedId": "pa2ih5bi"
     }
   ],
   "transfers": [
@@ -2983,5 +2984,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:08.332Z"
+  "savedAt": "2026-04-24T10:58:21.005Z"
 }
