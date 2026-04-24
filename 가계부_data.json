@@ -1463,18 +1463,6 @@
       "payDetail": "삼성카드 *4928"
     },
     {
-      "id": "_gpf1t5u",
-      "date": "2026-04-23",
-      "type": "expense",
-      "cat": "카페",
-      "desc": "도조커피",
-      "amount": 8000,
-      "memo": "",
-      "payMethod": "card",
-      "linkedId": "_pctvt2f",
-      "payDetail": "삼성카드 *4928"
-    },
-    {
       "id": "_hke3u21",
       "date": "2026-04-22",
       "type": "expense",
@@ -2813,19 +2801,6 @@
       "linkedId": "_a620iqp"
     },
     {
-      "id": "_pctvt2f",
-      "date": "2026-04-23",
-      "cat": "카페",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "merchant": "도조커피",
-      "item": "도조커피",
-      "amount": 8000,
-      "memo": "",
-      "source": "manual",
-      "linkedId": "_gpf1t5u"
-    },
-    {
       "id": "_rf1tlvh",
       "date": "2026-04-22",
       "cat": "카페",
@@ -3111,5 +3086,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T11:03:43.273Z"
+  "savedAt": "2026-04-24T11:03:58.249Z"
 }
