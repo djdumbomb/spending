@@ -276,9 +276,9 @@
       "memo": "네이버페이",
       "source": "receipt",
       "sourceFile": "AISelect_20260402_030158_N+.jpg",
-      "linkedId": "_6v1yr0n",
-      "payDetail": "현대카드 *1201",
-      "payMethod": "card"
+      "payDetail": "네이버페이",
+      "payMethod": "card",
+      "linkedId": "_u54r29d"
     },
     {
       "id": "tn8uidhy",
@@ -2700,11 +2700,11 @@
       "linkedId": "pa2ih5bi"
     },
     {
-      "id": "_6v1yr0n",
+      "id": "_u54r29d",
       "date": "2026-04-01",
       "cat": "육아",
-      "issuer": "현대카드",
-      "cardLabel": "현대카드 *1201",
+      "issuer": "네이버페이",
+      "cardLabel": "네이버페이",
       "merchant": "트루맘 뉴클래스 슈퍼프리미엄 액상 24입 (신생아부터 12개월까지)",
       "item": "트루맘 뉴클래스 슈퍼프리미엄 액상 24입 (신생아부터 12개월까지)",
       "amount": 31000,
@@ -2985,5 +2985,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:28.235Z"
+  "savedAt": "2026-04-24T10:58:31.539Z"
 }
