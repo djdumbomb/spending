@@ -225,9 +225,9 @@
       "memo": "오월돈가스",
       "source": "receipt",
       "sourceFile": "20260405_131114.jpg",
-      "payDetail": "KB국민카드 *9065",
-      "linkedId": "_2b4ffdq",
-      "payMethod": "card"
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card",
+      "linkedId": "_hkajanl"
     },
     {
       "id": "146emoc6",
@@ -2701,11 +2701,11 @@
       "linkedId": "146emoc6"
     },
     {
-      "id": "_2b4ffdq",
+      "id": "_hkajanl",
       "date": "2026-04-05",
       "cat": "외식",
-      "issuer": "KB국민카드",
-      "cardLabel": "KB국민카드 *9065",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "미니냉모밀",
       "item": "미니냉모밀",
       "amount": 4000,
@@ -2986,5 +2986,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:59:34.695Z"
+  "savedAt": "2026-04-24T10:59:37.770Z"
 }
