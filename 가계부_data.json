@@ -170,8 +170,9 @@
       "memo": "외롱외롱 (용인 기흥구)",
       "source": "receipt",
       "sourceFile": "20260402_210112.jpg",
-      "linkedId": "mhk6xka6",
-      "payDetail": "삼성카드 *4928"
+      "payDetail": "현대카드 *1201",
+      "linkedId": "_i7k6xbh",
+      "payMethod": "card"
     },
     {
       "id": "b6xwi7lz",
@@ -1569,20 +1570,6 @@
       "linkedId": "xq30dmi4"
     },
     {
-      "id": "mhk6xka6",
-      "date": "2026-04-02",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "외식",
-      "merchant": "모듬회 외 1품목",
-      "item": "모듬회 외 1품목",
-      "amount": 72000,
-      "memo": "외롱외롱 (용인 기흥구)",
-      "source": "receipt",
-      "sourceFile": "20260402_210112.jpg",
-      "linkedId": "648vngvw"
-    },
-    {
       "id": "pp0yn1fn",
       "date": "2026-04-03",
       "issuer": "삼성카드",
@@ -2708,6 +2695,19 @@
       "memo": "트레이더스 (동탄점)",
       "source": "manual",
       "linkedId": "nr4vlume"
+    },
+    {
+      "id": "_i7k6xbh",
+      "date": "2026-04-02",
+      "cat": "외식",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "merchant": "모듬회 외 1품목",
+      "item": "모듬회 외 1품목",
+      "amount": 72000,
+      "memo": "외롱외롱 (용인 기흥구)",
+      "source": "manual",
+      "linkedId": "648vngvw"
     }
   ],
   "transfers": [
@@ -2982,5 +2982,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:57:41.958Z"
+  "savedAt": "2026-04-24T10:57:44.862Z"
 }
