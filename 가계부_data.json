@@ -1386,6 +1386,16 @@
       "amount": 250000,
       "memo": "",
       "payMethod": "cash"
+    },
+    {
+      "id": "_x7wqtlw",
+      "date": "2026-04-12",
+      "type": "expense",
+      "cat": "용돈",
+      "desc": "염민아",
+      "amount": 1000000,
+      "memo": "생활비",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2894,5 +2904,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:12:31.299Z"
+  "savedAt": "2026-04-24T10:45:58.533Z"
 }
