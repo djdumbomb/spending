@@ -336,9 +336,9 @@
       "memo": "유캔두잇 용인공세점",
       "source": "receipt",
       "sourceFile": "20260406_210330.jpg",
-      "linkedId": "_ct0cwbl",
-      "payDetail": "현대카드 *2405",
-      "payMethod": "card"
+      "payDetail": "삼성카드 *4928",
+      "payMethod": "card",
+      "linkedId": "_fio1mio"
     },
     {
       "id": "lqngn2zi",
@@ -2698,11 +2698,11 @@
       "linkedId": "648vngvw"
     },
     {
-      "id": "_ct0cwbl",
+      "id": "_fio1mio",
       "date": "2026-04-02",
       "cat": "카페",
-      "issuer": "현대카드",
-      "cardLabel": "현대카드 *2405",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
       "merchant": "아메리카노",
       "item": "아메리카노",
       "amount": 3500,
@@ -2983,5 +2983,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:58:04.373Z"
+  "savedAt": "2026-04-24T10:58:08.332Z"
 }
