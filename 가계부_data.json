@@ -2959,6 +2959,17 @@
       "cat": "육아",
       "source": "manual",
       "linkedId": "_tks08fj"
+    },
+    {
+      "id": "_5lulsys",
+      "date": "2026-04-23",
+      "direction": "out",
+      "counterpart": "정중구",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 50000,
+      "cat": "육아",
+      "memo": "민아서 하계원복"
     }
   ],
   "myCards": [
@@ -3111,5 +3122,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T11:06:28.038Z"
+  "savedAt": "2026-04-24T11:10:48.538Z"
 }
