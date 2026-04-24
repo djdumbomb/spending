@@ -1425,6 +1425,16 @@
       "amount": 1000000,
       "memo": "생활비",
       "payMethod": "cash"
+    },
+    {
+      "id": "_efa3uem",
+      "date": "2026-04-24",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "보라연한의원",
+      "amount": 27200,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -2986,5 +2996,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:59:46.925Z"
+  "savedAt": "2026-04-24T11:00:41.412Z"
 }
