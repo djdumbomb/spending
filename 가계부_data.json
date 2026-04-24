@@ -1358,7 +1358,9 @@
       "desc": "딸기어린이집활동비",
       "amount": 150000,
       "memo": "",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_ks1ku68",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_31myjmt",
@@ -2813,6 +2815,19 @@
       "cat": "교통",
       "source": "manual",
       "linkedId": "_31myjmt"
+    },
+    {
+      "id": "_ks1ku68",
+      "date": "2026-04-22",
+      "direction": "out",
+      "counterpart": "딸기어린이집활동비",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 150000,
+      "memo": "",
+      "cat": "육아",
+      "source": "manual",
+      "linkedId": "_tks08fj"
     }
   ],
   "myCards": [
@@ -2965,5 +2980,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:53:43.159Z"
+  "savedAt": "2026-04-24T10:53:47.370Z"
 }
