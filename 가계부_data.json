@@ -156,7 +156,9 @@
       "memo": "트레이더스 (동탄점)",
       "source": "receipt",
       "sourceFile": "20260402_202444.jpg",
-      "linkedId": "q5rki5cf"
+      "linkedId": "_gv9l4cq",
+      "payDetail": "현대카드 *1201",
+      "payMethod": "card"
     },
     {
       "id": "648vngvw",
@@ -1567,20 +1569,6 @@
       "linkedId": "xq30dmi4"
     },
     {
-      "id": "q5rki5cf",
-      "date": "2026-04-02",
-      "issuer": "삼성카드",
-      "cardLabel": "삼성카드 *4928",
-      "cat": "식비",
-      "merchant": "트레이더스 (동탄점)",
-      "item": "해물통북 양장피",
-      "amount": 24980,
-      "memo": "트레이더스 (동탄점)",
-      "source": "receipt",
-      "sourceFile": "20260402_202444.jpg",
-      "linkedId": "nr4vlume"
-    },
-    {
       "id": "mhk6xka6",
       "date": "2026-04-02",
       "issuer": "삼성카드",
@@ -2707,6 +2695,19 @@
       "memo": "트레이더스 (동탄점)",
       "source": "manual",
       "linkedId": "th1llx3y"
+    },
+    {
+      "id": "_gv9l4cq",
+      "date": "2026-04-02",
+      "cat": "식비",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "merchant": "해물통북 양장피",
+      "item": "해물통북 양장피",
+      "amount": 24980,
+      "memo": "트레이더스 (동탄점)",
+      "source": "manual",
+      "linkedId": "nr4vlume"
     }
   ],
   "transfers": [
@@ -2981,5 +2982,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:57:32.748Z"
+  "savedAt": "2026-04-24T10:57:37.992Z"
 }
