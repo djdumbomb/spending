@@ -818,7 +818,9 @@
       "desc": "ks후룻베지파우치",
       "amount": 39900,
       "memo": "costco",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_iegqnrf",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_pkrtifb",
@@ -2782,6 +2784,19 @@
       "cat": "주거",
       "source": "manual",
       "linkedId": "_wh1mied"
+    },
+    {
+      "id": "_iegqnrf",
+      "date": "2026-04-15",
+      "direction": "out",
+      "counterpart": "ks후룻베지파우치",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 39900,
+      "memo": "costco",
+      "cat": "육아",
+      "source": "manual",
+      "linkedId": "_gfmndxw"
     }
   ],
   "myCards": [
@@ -2934,5 +2949,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:47:40.080Z"
+  "savedAt": "2026-04-24T10:47:52.393Z"
 }
