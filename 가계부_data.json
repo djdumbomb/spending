@@ -1368,7 +1368,9 @@
       "desc": "하이패스충전",
       "amount": 50000,
       "memo": "",
-      "payMethod": "cash"
+      "payMethod": "transfer",
+      "linkedId": "_gvxqtm5",
+      "payDetail": "우리은행 *2001"
     },
     {
       "id": "_5r204rh",
@@ -2798,6 +2800,19 @@
       "cat": "기타",
       "source": "manual",
       "linkedId": "_5sgbrf7"
+    },
+    {
+      "id": "_gvxqtm5",
+      "date": "2026-04-22",
+      "direction": "out",
+      "counterpart": "하이패스충전",
+      "from": "우리은행 *2001",
+      "to": "",
+      "amount": 50000,
+      "memo": "",
+      "cat": "교통",
+      "source": "manual",
+      "linkedId": "_31myjmt"
     }
   ],
   "myCards": [
@@ -2950,5 +2965,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-24T10:53:39.319Z"
+  "savedAt": "2026-04-24T10:53:43.159Z"
 }
