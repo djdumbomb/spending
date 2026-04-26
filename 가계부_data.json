@@ -1497,6 +1497,18 @@
       "payMethod": "card",
       "linkedId": "_gpc8fgd",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_0qylu6h",
+      "date": "2026-04-25",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "이마트",
+      "amount": 23100,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_8ywdtxl",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -2862,6 +2874,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_awtb12q"
+    },
+    {
+      "id": "_8ywdtxl",
+      "date": "2026-04-25",
+      "cat": "식비",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "이마트",
+      "item": "이마트",
+      "amount": 23100,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_0qylu6h"
     }
   ],
   "transfers": [
@@ -3147,5 +3172,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-26T07:02:44.491Z"
+  "savedAt": "2026-04-26T07:03:06.917Z"
 }
