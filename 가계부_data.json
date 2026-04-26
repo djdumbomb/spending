@@ -1533,6 +1533,18 @@
       "payMethod": "card",
       "linkedId": "_n8zi7ze",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_sswspz9",
+      "date": "2026-04-25",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "카페24",
+      "amount": 2700,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_hsb00aq",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -2937,6 +2949,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_x2qv4o7"
+    },
+    {
+      "id": "_hsb00aq",
+      "date": "2026-04-25",
+      "cat": "카페",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "카페24",
+      "item": "카페24",
+      "amount": 2700,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_sswspz9"
     }
   ],
   "transfers": [
@@ -3222,5 +3247,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-26T07:03:39.708Z"
+  "savedAt": "2026-04-26T07:03:50.390Z"
 }
