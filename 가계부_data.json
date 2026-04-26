@@ -1509,6 +1509,18 @@
       "payMethod": "card",
       "linkedId": "_8ywdtxl",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_bq4zfk3",
+      "date": "2026-04-25",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "옥된장",
+      "amount": 63000,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_5atbh9y",
+      "payDetail": "삼성카드 *4928"
     }
   ],
   "cardExpenses": [
@@ -2887,6 +2899,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_0qylu6h"
+    },
+    {
+      "id": "_5atbh9y",
+      "date": "2026-04-25",
+      "cat": "외식",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "merchant": "옥된장",
+      "item": "옥된장",
+      "amount": 63000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_bq4zfk3"
     }
   ],
   "transfers": [
@@ -3172,5 +3197,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-26T07:03:06.917Z"
+  "savedAt": "2026-04-26T07:03:21.832Z"
 }
