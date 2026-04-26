@@ -1545,6 +1545,18 @@
       "payMethod": "card",
       "linkedId": "_hsb00aq",
       "payDetail": "삼성카드 *4928"
+    },
+    {
+      "id": "_61qjkfv",
+      "date": "2026-04-25",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "이자카야베코",
+      "amount": 43000,
+      "memo": "",
+      "payMethod": "card",
+      "linkedId": "_bdni53i",
+      "payDetail": "롯데카드 *7653"
     }
   ],
   "cardExpenses": [
@@ -2962,6 +2974,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_sswspz9"
+    },
+    {
+      "id": "_bdni53i",
+      "date": "2026-04-25",
+      "cat": "외식",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "merchant": "이자카야베코",
+      "item": "이자카야베코",
+      "amount": 43000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_61qjkfv"
     }
   ],
   "transfers": [
@@ -3247,5 +3272,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-26T07:03:50.390Z"
+  "savedAt": "2026-04-26T07:05:07.814Z"
 }
