@@ -1790,6 +1790,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_afxzxjq"
+    },
+    {
+      "id": "_x6ltlvk",
+      "date": "2026-04-27",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "쿠쿠홈시스",
+      "amount": 15900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_97w72tb"
     }
   ],
   "cardExpenses": [
@@ -3454,6 +3467,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_qifvzzf"
+    },
+    {
+      "id": "_97w72tb",
+      "date": "2026-04-27",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "기타",
+      "merchant": "쿠쿠홈시스",
+      "item": "쿠쿠홈시스",
+      "amount": 15900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_x6ltlvk"
     }
   ],
   "transfers": [
@@ -3739,5 +3765,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:16:50.576Z"
+  "savedAt": "2026-04-30T10:18:01.019Z"
 }
