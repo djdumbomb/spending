@@ -1803,6 +1803,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_97w72tb"
+    },
+    {
+      "id": "_zedrdk8",
+      "date": "2026-04-27",
+      "type": "expense",
+      "cat": "통신",
+      "desc": "Claude ai",
+      "amount": 27000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_z0lj31c"
     }
   ],
   "cardExpenses": [
@@ -3480,6 +3493,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_x6ltlvk"
+    },
+    {
+      "id": "_z0lj31c",
+      "date": "2026-04-27",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "통신",
+      "merchant": "Claude ai",
+      "item": "Claude ai",
+      "amount": 27000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_zedrdk8"
     }
   ],
   "transfers": [
@@ -3765,5 +3791,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:18:01.019Z"
+  "savedAt": "2026-04-30T10:19:18.042Z"
 }
