@@ -1826,6 +1826,19 @@
       "amount": 280000,
       "memo": "",
       "payMethod": "cash"
+    },
+    {
+      "id": "_3hjx2zw",
+      "date": "2026-04-30",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "네이버",
+      "amount": 53300,
+      "memo": "갑오징어",
+      "payMethod": "card",
+      "payDetail": "네이버페이",
+      "source": "manual",
+      "linkedId": "_nhcnwou"
     }
   ],
   "cardExpenses": [
@@ -3516,6 +3529,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_zedrdk8"
+    },
+    {
+      "id": "_nhcnwou",
+      "date": "2026-04-30",
+      "issuer": "네이버페이",
+      "cardLabel": "네이버페이",
+      "cat": "식비",
+      "merchant": "네이버",
+      "item": "네이버",
+      "amount": 53300,
+      "memo": "갑오징어",
+      "source": "manual",
+      "linkedId": "_3hjx2zw"
     }
   ],
   "transfers": [
@@ -3801,5 +3827,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T15:22:00.976Z"
+  "savedAt": "2026-04-30T15:23:05.051Z"
 }
