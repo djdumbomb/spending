@@ -1608,6 +1608,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_49zwdb9"
+    },
+    {
+      "id": "_5zniufy",
+      "date": "2026-04-29",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "윤소아과",
+      "amount": 4900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_w6tsinn"
     }
   ],
   "cardExpenses": [
@@ -3090,6 +3103,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_tj8g3qm"
+    },
+    {
+      "id": "_w6tsinn",
+      "date": "2026-04-29",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "의료",
+      "merchant": "윤소아과",
+      "item": "윤소아과",
+      "amount": 4900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_5zniufy"
     }
   ],
   "transfers": [
@@ -3375,5 +3401,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:04:37.117Z"
+  "savedAt": "2026-04-30T10:05:04.985Z"
 }
