@@ -1647,6 +1647,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_rlan170"
+    },
+    {
+      "id": "_naj19d7",
+      "date": "2026-04-29",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "네스프레소",
+      "amount": 99200,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_pxv1dy3"
     }
   ],
   "cardExpenses": [
@@ -3168,6 +3181,19 @@
       "memo": "집안수리",
       "source": "manual",
       "linkedId": "_s6lm1fu"
+    },
+    {
+      "id": "_pxv1dy3",
+      "date": "2026-04-29",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "카페",
+      "merchant": "네스프레소",
+      "item": "네스프레소",
+      "amount": 99200,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_naj19d7"
     }
   ],
   "transfers": [
@@ -3453,5 +3479,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:06:23.719Z"
+  "savedAt": "2026-04-30T10:06:46.490Z"
 }
