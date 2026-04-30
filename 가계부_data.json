@@ -1777,6 +1777,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_k2yj7sf"
+    },
+    {
+      "id": "_qifvzzf",
+      "date": "2026-04-27",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "등기소",
+      "amount": 700,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_afxzxjq"
     }
   ],
   "cardExpenses": [
@@ -3428,6 +3441,19 @@
       "memo": "쓰레기통",
       "source": "manual",
       "linkedId": "_ti4hxan"
+    },
+    {
+      "id": "_afxzxjq",
+      "date": "2026-04-27",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "기타",
+      "merchant": "등기소",
+      "item": "등기소",
+      "amount": 700,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_qifvzzf"
     }
   ],
   "transfers": [
@@ -3713,5 +3739,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:16:19.491Z"
+  "savedAt": "2026-04-30T10:16:50.576Z"
 }
