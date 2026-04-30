@@ -1751,6 +1751,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_4zmsxep"
+    },
+    {
+      "id": "_o5141kb",
+      "date": "2026-04-30",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "택시비",
+      "amount": 9900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_ciy89vz"
     }
   ],
   "cardExpenses": [
@@ -3376,6 +3389,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_yizwbut"
+    },
+    {
+      "id": "_ciy89vz",
+      "date": "2026-04-30",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "교통",
+      "merchant": "택시비",
+      "item": "택시비",
+      "amount": 9900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_o5141kb"
     }
   ],
   "transfers": [
@@ -3661,5 +3687,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:13:44.864Z"
+  "savedAt": "2026-04-30T10:15:48.519Z"
 }
