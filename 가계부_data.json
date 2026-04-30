@@ -1764,6 +1764,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_ciy89vz"
+    },
+    {
+      "id": "_ti4hxan",
+      "date": "2026-04-30",
+      "type": "expense",
+      "cat": "기타",
+      "desc": "네이버",
+      "amount": 12500,
+      "memo": "쓰레기통",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_k2yj7sf"
     }
   ],
   "cardExpenses": [
@@ -3402,6 +3415,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_o5141kb"
+    },
+    {
+      "id": "_k2yj7sf",
+      "date": "2026-04-30",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "기타",
+      "merchant": "네이버",
+      "item": "네이버",
+      "amount": 12500,
+      "memo": "쓰레기통",
+      "source": "manual",
+      "linkedId": "_ti4hxan"
     }
   ],
   "transfers": [
@@ -3687,5 +3713,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:15:48.519Z"
+  "savedAt": "2026-04-30T10:16:19.491Z"
 }
