@@ -1816,6 +1816,16 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_z0lj31c"
+    },
+    {
+      "id": "_wp4blxq",
+      "date": "2026-04-30",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "트렁크 판금수리",
+      "amount": 280000,
+      "memo": "",
+      "payMethod": "cash"
     }
   ],
   "cardExpenses": [
@@ -3791,5 +3801,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:19:18.042Z"
+  "savedAt": "2026-04-30T10:21:57.421Z"
 }
