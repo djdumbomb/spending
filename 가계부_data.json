@@ -1660,6 +1660,19 @@
       "payDetail": "삼성카드 *4928",
       "source": "manual",
       "linkedId": "_pxv1dy3"
+    },
+    {
+      "id": "_kptb8mf",
+      "date": "2026-04-29",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "보라연한의원",
+      "amount": 43200,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "삼성카드 *4928",
+      "source": "manual",
+      "linkedId": "_j4tb2vt"
     }
   ],
   "cardExpenses": [
@@ -3194,6 +3207,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_naj19d7"
+    },
+    {
+      "id": "_j4tb2vt",
+      "date": "2026-04-29",
+      "issuer": "삼성카드",
+      "cardLabel": "삼성카드 *4928",
+      "cat": "의료",
+      "merchant": "보라연한의원",
+      "item": "보라연한의원",
+      "amount": 43200,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_kptb8mf"
     }
   ],
   "transfers": [
@@ -3479,5 +3505,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:06:46.490Z"
+  "savedAt": "2026-04-30T10:07:20.492Z"
 }
