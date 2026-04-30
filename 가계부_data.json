@@ -1738,6 +1738,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_bfv2bvi"
+    },
+    {
+      "id": "_yizwbut",
+      "date": "2026-04-29",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "보라연한의원",
+      "amount": 300000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_4zmsxep"
     }
   ],
   "cardExpenses": [
@@ -3350,6 +3363,19 @@
       "memo": "보라연한의원",
       "source": "manual",
       "linkedId": "_7x8fdj9"
+    },
+    {
+      "id": "_4zmsxep",
+      "date": "2026-04-29",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "의료",
+      "merchant": "보라연한의원",
+      "item": "보라연한의원",
+      "amount": 300000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_yizwbut"
     }
   ],
   "transfers": [
@@ -3635,5 +3661,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:12:23.706Z"
+  "savedAt": "2026-04-30T10:12:38.652Z"
 }
