@@ -1725,6 +1725,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_xnh5hjz"
+    },
+    {
+      "id": "_7x8fdj9",
+      "date": "2026-04-29",
+      "type": "expense",
+      "cat": "의료",
+      "desc": "에스티엔",
+      "amount": 260000,
+      "memo": "보라연한의원",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_bfv2bvi"
     }
   ],
   "cardExpenses": [
@@ -3324,6 +3337,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_ie73qnf"
+    },
+    {
+      "id": "_bfv2bvi",
+      "date": "2026-04-29",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "의료",
+      "merchant": "에스티엔",
+      "item": "에스티엔",
+      "amount": 260000,
+      "memo": "보라연한의원",
+      "source": "manual",
+      "linkedId": "_7x8fdj9"
     }
   ],
   "transfers": [
@@ -3609,5 +3635,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-04-30T10:11:46.810Z"
+  "savedAt": "2026-04-30T10:12:23.706Z"
 }
