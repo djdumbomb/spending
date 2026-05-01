@@ -1891,6 +1891,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_30k9ksv"
+    },
+    {
+      "id": "_8nt6mjy",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "님원추어탕통마늘오리",
+      "amount": 11000,
+      "memo": "이천도자기축제 닭꼬치",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_y5mdfkm"
     }
   ],
   "cardExpenses": [
@@ -3646,6 +3659,19 @@
       "memo": "이천도자기축제",
       "source": "manual",
       "linkedId": "_hkpem5j"
+    },
+    {
+      "id": "_y5mdfkm",
+      "date": "2026-05-01",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "외식",
+      "merchant": "님원추어탕통마늘오리",
+      "item": "님원추어탕통마늘오리",
+      "amount": 11000,
+      "memo": "이천도자기축제 닭꼬치",
+      "source": "manual",
+      "linkedId": "_8nt6mjy"
     }
   ],
   "transfers": [
@@ -3931,5 +3957,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:03:42.996Z"
+  "savedAt": "2026-05-01T20:04:19.920Z"
 }
