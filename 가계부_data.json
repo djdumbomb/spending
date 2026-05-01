@@ -1956,6 +1956,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_6epo8ts"
+    },
+    {
+      "id": "_py57ik8",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "지하철",
+      "amount": 3100,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_hc34pvr"
     }
   ],
   "cardExpenses": [
@@ -3776,6 +3789,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_0f8qxmk"
+    },
+    {
+      "id": "_hc34pvr",
+      "date": "2026-05-01",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "교통",
+      "merchant": "지하철",
+      "item": "지하철",
+      "amount": 3100,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_py57ik8"
     }
   ],
   "transfers": [
@@ -4061,5 +4087,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:08:27.016Z"
+  "savedAt": "2026-05-01T20:08:45.356Z"
 }
