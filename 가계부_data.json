@@ -1917,6 +1917,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_ukkcp0p"
+    },
+    {
+      "id": "_cwf56ry",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "아성다아소",
+      "amount": 11000,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_6mz9jn8"
     }
   ],
   "cardExpenses": [
@@ -3698,6 +3711,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_o60odcy"
+    },
+    {
+      "id": "_6mz9jn8",
+      "date": "2026-05-01",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "육아",
+      "merchant": "아성다아소",
+      "item": "아성다아소",
+      "amount": 11000,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_cwf56ry"
     }
   ],
   "transfers": [
@@ -3983,5 +4009,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:05:36.980Z"
+  "savedAt": "2026-05-01T20:05:52.978Z"
 }
