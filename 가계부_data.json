@@ -1977,7 +1977,7 @@
       "cat": "교통",
       "desc": "타이어뱅크",
       "amount": 1400000,
-      "memo": "타이오교체",
+      "memo": "타이어교체",
       "payMethod": "card",
       "payDetail": "현대카드 *1201",
       "source": "manual",
@@ -3825,7 +3825,7 @@
       "merchant": "타이어뱅크",
       "item": "타이어뱅크",
       "amount": 1400000,
-      "memo": "타이오교체",
+      "memo": "타이어교체",
       "source": "manual",
       "linkedId": "_d3ys3xl"
     }
@@ -4113,5 +4113,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:09:08.150Z"
+  "savedAt": "2026-05-01T20:09:18.276Z"
 }
