@@ -1943,6 +1943,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_8hditca"
+    },
+    {
+      "id": "_0f8qxmk",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "교통",
+      "desc": "버스",
+      "amount": 1650,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_6epo8ts"
     }
   ],
   "cardExpenses": [
@@ -3750,6 +3763,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_fryo3fz"
+    },
+    {
+      "id": "_6epo8ts",
+      "date": "2026-05-01",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "교통",
+      "merchant": "버스",
+      "item": "버스",
+      "amount": 1650,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_0f8qxmk"
     }
   ],
   "transfers": [
@@ -4035,5 +4061,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:06:26.783Z"
+  "savedAt": "2026-05-01T20:08:05.980Z"
 }
