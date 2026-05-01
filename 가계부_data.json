@@ -1865,6 +1865,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_zdizdp8"
+    },
+    {
+      "id": "_hldfbc9",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "쇼핑",
+      "desc": "한결상사",
+      "amount": 10000,
+      "memo": "이천도자기축제",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_y4decj6"
     }
   ],
   "cardExpenses": [
@@ -3594,6 +3607,19 @@
       "memo": "이천도자기축제",
       "source": "manual",
       "linkedId": "_xrv3k1w"
+    },
+    {
+      "id": "_y4decj6",
+      "date": "2026-05-01",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "쇼핑",
+      "merchant": "한결상사",
+      "item": "한결상사",
+      "amount": 10000,
+      "memo": "이천도자기축제",
+      "source": "manual",
+      "linkedId": "_hldfbc9"
     }
   ],
   "transfers": [
@@ -3879,5 +3905,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:02:30.706Z"
+  "savedAt": "2026-05-01T20:02:59.882Z"
 }
