@@ -1839,6 +1839,19 @@
       "payDetail": "네이버페이",
       "source": "manual",
       "linkedId": "_nhcnwou"
+    },
+    {
+      "id": "_ks7odos",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "쇼핑",
+      "desc": "솔과흙",
+      "amount": 10000,
+      "memo": "이천도자기축제",
+      "payMethod": "card",
+      "payDetail": "롯데카드 *7653",
+      "source": "manual",
+      "linkedId": "_9ah3tjd"
     }
   ],
   "cardExpenses": [
@@ -3542,6 +3555,19 @@
       "memo": "갑오징어",
       "source": "manual",
       "linkedId": "_3hjx2zw"
+    },
+    {
+      "id": "_9ah3tjd",
+      "date": "2026-05-01",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
+      "cat": "쇼핑",
+      "merchant": "솔과흙",
+      "item": "솔과흙",
+      "amount": 10000,
+      "memo": "이천도자기축제",
+      "source": "manual",
+      "linkedId": "_ks7odos"
     }
   ],
   "transfers": [
@@ -3827,5 +3853,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:01:23.642Z"
+  "savedAt": "2026-05-01T20:02:03.827Z"
 }
