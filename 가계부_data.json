@@ -1930,6 +1930,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_6mz9jn8"
+    },
+    {
+      "id": "_fryo3fz",
+      "date": "2026-05-01",
+      "type": "expense",
+      "cat": "육아",
+      "desc": "Topten",
+      "amount": 19900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_8hditca"
     }
   ],
   "cardExpenses": [
@@ -3724,6 +3737,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_cwf56ry"
+    },
+    {
+      "id": "_8hditca",
+      "date": "2026-05-01",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "육아",
+      "merchant": "Topten",
+      "item": "Topten",
+      "amount": 19900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_fryo3fz"
     }
   ],
   "transfers": [
@@ -4009,5 +4035,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-01T20:05:52.978Z"
+  "savedAt": "2026-05-01T20:06:26.783Z"
 }
