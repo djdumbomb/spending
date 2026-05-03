@@ -2034,6 +2034,19 @@
       "payDetail": "현대카드 *1201",
       "source": "manual",
       "linkedId": "_h9d78qo"
+    },
+    {
+      "id": "_xxjeljp",
+      "date": "2026-05-02",
+      "type": "expense",
+      "cat": "외식",
+      "desc": "케이워 피에스",
+      "amount": 63900,
+      "memo": "돼지갈비",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_k9sf9yy"
     }
   ],
   "cardExpenses": [
@@ -3932,6 +3945,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_wzz1iv2"
+    },
+    {
+      "id": "_k9sf9yy",
+      "date": "2026-05-02",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "외식",
+      "merchant": "케이워 피에스",
+      "item": "케이워 피에스",
+      "amount": 63900,
+      "memo": "돼지갈비",
+      "source": "manual",
+      "linkedId": "_xxjeljp"
     }
   ],
   "transfers": [
@@ -4217,5 +4243,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:08:59.104Z"
+  "savedAt": "2026-05-03T02:10:04.266Z"
 }
