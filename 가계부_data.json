@@ -1992,7 +1992,7 @@
       "amount": 7000,
       "memo": "",
       "payMethod": "card",
-      "payDetail": "네이버페이",
+      "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_j9dt1is"
     }
@@ -3845,8 +3845,8 @@
     {
       "id": "_j9dt1is",
       "date": "2026-05-02",
-      "issuer": "네이버페이",
-      "cardLabel": "네이버페이",
+      "issuer": "롯데카드",
+      "cardLabel": "롯데카드 *7653",
       "cat": "육아",
       "merchant": "다이소",
       "item": "다이소",
@@ -4139,5 +4139,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:05:13.560Z"
+  "savedAt": "2026-05-03T02:05:22.680Z"
 }
