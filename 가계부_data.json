@@ -2008,6 +2008,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_iww6kgh"
+    },
+    {
+      "id": "_ibh922n",
+      "date": "2026-05-02",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "언덕뜰소반",
+      "amount": 3200,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_9vcszxs"
     }
   ],
   "cardExpenses": [
@@ -3880,6 +3893,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_4hkina5"
+    },
+    {
+      "id": "_9vcszxs",
+      "date": "2026-05-02",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "카페",
+      "merchant": "언덕뜰소반",
+      "item": "언덕뜰소반",
+      "amount": 3200,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_ibh922n"
     }
   ],
   "transfers": [
@@ -4165,5 +4191,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:06:03.665Z"
+  "savedAt": "2026-05-03T02:06:38.665Z"
 }
