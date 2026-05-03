@@ -2021,6 +2021,19 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_9vcszxs"
+    },
+    {
+      "id": "_wzz1iv2",
+      "date": "2026-05-02",
+      "type": "expense",
+      "cat": "식비",
+      "desc": "코스트코",
+      "amount": 56170,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "현대카드 *1201",
+      "source": "manual",
+      "linkedId": "_h9d78qo"
     }
   ],
   "cardExpenses": [
@@ -3906,6 +3919,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_ibh922n"
+    },
+    {
+      "id": "_h9d78qo",
+      "date": "2026-05-02",
+      "issuer": "현대카드",
+      "cardLabel": "현대카드 *1201",
+      "cat": "식비",
+      "merchant": "코스트코",
+      "item": "코스트코",
+      "amount": 56170,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_wzz1iv2"
     }
   ],
   "transfers": [
@@ -4191,5 +4217,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:07:30.146Z"
+  "savedAt": "2026-05-03T02:08:59.104Z"
 }
