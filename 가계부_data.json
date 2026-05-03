@@ -2021,19 +2021,6 @@
       "payDetail": "KB국민카드 *9065",
       "source": "manual",
       "linkedId": "_9vcszxs"
-    },
-    {
-      "id": "_84dot0t",
-      "date": "2026-05-02",
-      "type": "expense",
-      "cat": "육아",
-      "desc": "종로서적",
-      "amount": 8800,
-      "memo": "",
-      "payMethod": "card",
-      "payDetail": "KB국민카드 *9065",
-      "source": "manual",
-      "linkedId": "_m2cwm1o"
     }
   ],
   "cardExpenses": [
@@ -3919,19 +3906,6 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_ibh922n"
-    },
-    {
-      "id": "_m2cwm1o",
-      "date": "2026-05-02",
-      "issuer": "KB국민카드",
-      "cardLabel": "KB국민카드 *9065",
-      "cat": "육아",
-      "merchant": "종로서적",
-      "item": "종로서적",
-      "amount": 8800,
-      "memo": "",
-      "source": "manual",
-      "linkedId": "_84dot0t"
     }
   ],
   "transfers": [
@@ -4217,5 +4191,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:06:55.665Z"
+  "savedAt": "2026-05-03T02:07:30.146Z"
 }
