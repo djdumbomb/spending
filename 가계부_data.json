@@ -1995,6 +1995,19 @@
       "payDetail": "롯데카드 *7653",
       "source": "manual",
       "linkedId": "_j9dt1is"
+    },
+    {
+      "id": "_4hkina5",
+      "date": "2026-05-02",
+      "type": "expense",
+      "cat": "카페",
+      "desc": "폴바셋",
+      "amount": 10900,
+      "memo": "",
+      "payMethod": "card",
+      "payDetail": "KB국민카드 *9065",
+      "source": "manual",
+      "linkedId": "_iww6kgh"
     }
   ],
   "cardExpenses": [
@@ -3854,6 +3867,19 @@
       "memo": "",
       "source": "manual",
       "linkedId": "_jw87vuv"
+    },
+    {
+      "id": "_iww6kgh",
+      "date": "2026-05-02",
+      "issuer": "KB국민카드",
+      "cardLabel": "KB국민카드 *9065",
+      "cat": "카페",
+      "merchant": "폴바셋",
+      "item": "폴바셋",
+      "amount": 10900,
+      "memo": "",
+      "source": "manual",
+      "linkedId": "_4hkina5"
     }
   ],
   "transfers": [
@@ -4139,5 +4165,5 @@
       "color": "#EAB308"
     }
   ],
-  "savedAt": "2026-05-03T02:05:45.365Z"
+  "savedAt": "2026-05-03T02:06:03.665Z"
 }
